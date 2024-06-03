@@ -1,0 +1,18 @@
+{
+  "name": "catalogos a sql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "componentesclave": "node \"Componentes comunes/Componentes comunes.js\"",
+    "capacidadesclientes": "node \"Capacidades Clientes/script.js\"",
+    "grupos": "node \"Grupos/script.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
