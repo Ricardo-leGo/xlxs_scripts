@@ -6,8 +6,8 @@ const fs = require('fs');
 const path = require('path');
 const { Console } = require('console');
 
-const workbook = XLSX.readFile('Grupos/Componentesyfuncionalidades1.xlsx');
-const sheetName = workbook.SheetNames[2]; // Suponiendo que solo hay una hoja en el archivo
+const workbook = XLSX.readFile('Grupos/ComponentesYFuncionalidadesFinales.xlsx');
+const sheetName = workbook.SheetNames[0]; // Suponiendo que solo hay una hoja en el archivo
 const worksheet = workbook.Sheets[sheetName];
 
 
@@ -157,7 +157,7 @@ ComponentesComunes.forEach( (el, fcindex) => {
 
 
     ComponentesComunesInsert+=`
-    INSERT INTO ComponentesComunes ([Componente]) VALUES('${el}'});
+    INSERT INTO ComponentesComunes ([Componente]) VALUES('${el}');
     `;
 
 });
@@ -176,7 +176,7 @@ GposCapacidades.forEach( (Grupo, MainIndex)=> {
 
 
         ArrCapacidades +=`
-    INSERT INTO CapacidadDeNegocio ([Capacidad], [IdGrupoDeCapacidadesFk) VALUES ('${Capacidad}', ${MainIndex+1} );
+    INSERT INTO CapacidadDeNegocio ([Capacidad]) VALUES ('${Capacidad}');
     `
 
         ArrSubCapacidadesSorted =  SubCapacidades.sort( (a,b)=>a.Subcapacidad<b.SubCapacidad?-1:1);
@@ -184,7 +184,7 @@ GposCapacidades.forEach( (Grupo, MainIndex)=> {
         ArrSubCapacidadesSorted.forEach(({SubCapacidad})=>{
             
             SubCapacidadInsert += `
-            INSERT INTO SubCapacidad ([SubCapacidad],IdCapacidadDeNegocioFk ) Values('${SubCapacidad}', ${CapacidadIndex+1});
+            INSERT INTO SubCapacidad ([SubCapacidad],IdCapacidadDeNegocioFk ) Values('${SubCapacidad}');
             `;
 
         })
@@ -194,11 +194,11 @@ GposCapacidades.forEach( (Grupo, MainIndex)=> {
         }));
 });
 
-// console.log(GpoCapacidadesInsert );
-// console.log(ArrCapacidades );
-// console.log(SubCapacidadInsert);
-// console.log(FuncionalidadesInsert, "===========================");
- console.log(ArrComponentesComunes, "===========================", ComponentesComunesInsert);
+console.log(GpoCapacidadesInsert );
+console.log(ArrCapacidades );
+console.log(SubCapacidadInsert);
+console.log(FuncionalidadesInsert, "===========================");
+console.log(ArrComponentesComunes, "===========================", ComponentesComunesInsert);
 
     async function SaveFile(){
 
@@ -210,12 +210,16 @@ GposCapacidades.forEach( (Grupo, MainIndex)=> {
 
             let resultDirCreate="";
 
-            // if(!fs.existsSync("JsonData")){
+            if(!fs.existsSync("JsonData")){
 
-            //     resultDirCreate = fs.mkdirSync( path.join(beforeDir, "JsonData") );
-            // }
+                resultDirCreate = fs.mkdirSync( path.join(beforeDir, "JsonData") );
+            }
 
-        // await fs.writeFile( path.join(beforeDir, "JsonData/gpo.json"), JSON.stringify(GposCapacidadesData, null, 4) ,  ()=>{} );
+        await fs.writeFile( path.join(beforeDir, "JsonData/FuncionalidadesInsert.sql"),     FuncionalidadesInsert    ,  ()=>{} );
+        await fs.writeFile( path.join(beforeDir, "JsonData/ComponentesComunesInsert.sql"),  ComponentesComunesInsert ,  ()=>{} );
+        await fs.writeFile( path.join(beforeDir, "JsonData/GpoCapacidadesInsert.sql"),      GpoCapacidadesInsert     ,  ()=>{} );
+        await fs.writeFile( path.join(beforeDir, "JsonData/ArrCapacidades.sql"),            ArrCapacidades           ,  ()=>{} );
+        await fs.writeFile( path.join(beforeDir, "JsonData/SubCapacidadInsert.sql"),        SubCapacidadInsert       ,  ()=>{} );
         
         return;
 
