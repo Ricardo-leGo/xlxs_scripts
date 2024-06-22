@@ -1,27 +1,22 @@
 var GrupoDeCapacidades =["Cliente", "Servicio Financiero", "Transacción", "Soporte"];
-const Columnas =  ["A", "B", "C", "D", "E", "F"];
+const Columnas =  ["A", "B", "C", "D", "E", "F", "G"];
 
 const XLSX = require('xlsx');
 const fs = require('fs');
 const path = require('path');
-const { Console } = require('console');
 
 const workbook = XLSX.readFile('Grupos/ComponentesYFuncionalidadesFinales.xlsx');
-const sheetName = workbook.SheetNames[0]; // Suponiendo que solo hay una hoja en el archivo
+const sheetName = workbook.SheetNames[0]; 
 const worksheet = workbook.Sheets[sheetName];
 
+const columna = 'A'; 
 
-// Define la letra de la columna que deseas leer
-const columna = 'A'; // Por ejemplo, columna A
-
-// Arreglo donde se guardarán los valores de la columna
 let valoresColumna = [];
 let objs = [];
 let FuncYComp =  [];
 let Grupos = [];
 let GposCapacidadesData = {};
 
-// Iterar a través de las celdas en la columna específica
 for (let rowNum = 3; ; rowNum++) {
     const cellAddress =  columna + rowNum;
     const cell = worksheet[cellAddress];
@@ -99,12 +94,13 @@ for (let rowNum = 3; ; rowNum++) {
             "Capacidad": worksheet[Columnas[1]+rowNum].v,
             "SubCapacidad":worksheet[Columnas[2]+rowNum].v,
             "Funcionalidad":worksheet[Columnas[3]+rowNum].v,
-            "ComponenteComun":worksheet[Columnas[4]+rowNum].v,
-            "Calificacion":worksheet[Columnas[5]+rowNum]?.v
+            "ComponenteComun":worksheet[Columnas[4]+rowNum].v.replaceAll("\r\n", ""),
+            "Calificacion":worksheet[Columnas[5]+rowNum]?.v,
+            "AppReferencia":worksheet[Columnas[6]+rowNum]?.v??"NA"
+
 
         });
         
-
 
     }
     
@@ -112,12 +108,18 @@ for (let rowNum = 3; ; rowNum++) {
     // Agregar el valor de la celda al arreglo
 }
 
+
+
+
 const GposCapacidades =  Object.keys(GposCapacidadesData).map(el=>el);
+const GposCapacidadeskeys =  Object.keys(GposCapacidadesData).map((el, i)=> ({GpoCapacidad:el, Foreingkey:i+1}));
+
 helperFuncionalidadCalificacion = [...new Set( FuncYComp.map(el=>el) )].sort((a,b)=>a<b?-1:1);
 let ComponentesComunes = [...new Set( objs.map(el=>el.ComponenteComun) )].sort((a,b)=>a<b?-1:1);
-
+let ArrAppsReferenciaraw = [...new Set( objs.map(el=>el.AppReferencia) )].sort((a,b)=>a<b?-1:1);
 let FuncionalidadesCalificaciones = [];
 let ArrComponentesComunes = [];
+let ArrAppsReferencia = [];
 
 
 
@@ -127,6 +129,7 @@ let GpoCapacidadesInsert= "";
 let SubCapacidadInsert= "";
 let FuncionalidadesInsert= "";
 let ComponentesComunesInsert= "";
+let AppsReferenciaInserts= "";
 let ArrCapacidadesSorted =  null;
 let ArrSubCapacidadesSorted =  null;
 
@@ -142,7 +145,7 @@ helperFuncionalidadCalificacion.forEach( (el, fcindex) => {
 
 
     FuncionalidadesInsert+=`
-    INSERT INTO Funcionalidades ([Funcionalidad], Calificacion) VALUES('${el}', ${objs.find(k => k.Funcionalidad == el).Calificacion??0});
+    INSERT INTO Funcionalidad ([Funcionalidad], Calificacion) VALUES('${el}', ${objs.find(k => k.Funcionalidad == el).Calificacion??0});
     `;
 
 });
@@ -162,10 +165,26 @@ ComponentesComunes.forEach( (el, fcindex) => {
 
 });
 
+ArrAppsReferenciaraw.forEach( (el, fcindex) => {
+
+    ArrAppsReferencia.push({
+        AppsReferencia:el,
+        Id:fcindex+1
+    });
+
+
+    AppsReferenciaInserts +=`
+    INSERT INTO AppsReferencia ([App]) VALUES('${el}');
+    `;
+    console.log(AppsReferenciaInserts);
+
+});
+
+let FuncionalidadesArr=[];
+let ComponentesArr=[];
 
 GposCapacidades.forEach( (Grupo, MainIndex)=> {
 
-// console.log(Grupo,index, GposCapacidadesData[Grupo] );
 
      ArrCapacidadesSorted =  GposCapacidadesData[Grupo].sort((a,b) => a.Capacidad<b.Capacidad?-1:1);
     
@@ -176,7 +195,7 @@ GposCapacidades.forEach( (Grupo, MainIndex)=> {
 
 
         ArrCapacidades +=`
-    INSERT INTO CapacidadDeNegocio ([Capacidad]) VALUES ('${Capacidad}');
+    INSERT INTO CapacidadDeNegocio ([Capacidad]) VALUES ('${Capacidad}' );
     `
 
         ArrSubCapacidadesSorted =  SubCapacidades.sort( (a,b)=>a.Subcapacidad<b.SubCapacidad?-1:1);
@@ -184,25 +203,47 @@ GposCapacidades.forEach( (Grupo, MainIndex)=> {
         ArrSubCapacidadesSorted.forEach(({SubCapacidad})=>{
             
             SubCapacidadInsert += `
-            INSERT INTO SubCapacidad ([SubCapacidad],IdCapacidadDeNegocioFk ) Values('${SubCapacidad}');
+            INSERT INTO SubCapacidad ([SubCapacidad]) Values('${SubCapacidad}');
             `;
 
         })
 
-        
-
         }));
 });
 
-console.log(GpoCapacidadesInsert );
-console.log(ArrCapacidades );
-console.log(SubCapacidadInsert);
-console.log(FuncionalidadesInsert, "===========================");
-console.log(ArrComponentesComunes, "===========================", ComponentesComunesInsert);
+
+helperCapacidades=[...new Set( objs.map(el=>el.Capacidad) )].map((el, i)=>({Capacidad:el, Foreingkey:i+1}));
+helperSubcapacidad=[...new Set( objs.map(el=>el.SubCapacidad) )].map((el, i)=> ({SubCapacidad:el, Foreingkey:i+1}));
+
+
+let dataToInsertAllForeings = "", AppReferenciaInserts ="";
+
+objs.forEach( ({GrupoCapacidades, Capacidad, SubCapacidad, Funcionalidad, ComponenteComun, Calificacion, AppReferencia}) =>{
+
+    const GposCapacidadeskeysForeings           = GposCapacidadeskeys.find(k=> k.GpoCapacidad===GrupoCapacidades).Foreingkey;
+    const helperCapacidadesForeings             = helperCapacidades.find(k => k.Capacidad === Capacidad ).Foreingkey;
+    const helperSubcapacidadForeings            = helperSubcapacidad.find(k=> k.SubCapacidad === SubCapacidad ).Foreingkey;
+    const FuncionalidadesCalificacionesForeings = FuncionalidadesCalificaciones.find(k=> k.Funcionalidad === Funcionalidad ).Id;
+    const ArrComponentesComunesForeings         = ArrComponentesComunes.find(k => k.Componente === ComponenteComun ).Id;
+    const AppReferenciaFK                       = ArrAppsReferencia.find(k => k.AppReferencia === AppReferencia ).Id;
+
+
+    dataToInsertAllForeings += `
+    INSERT INTO MpComponentesYFuncionalidades ([IdGrupoFK], [IdCapacidadDeNegocioFK], [IdSubCapacidadFK], [IdFuncionalidadesFK], [IdComponentesComunesFK], [Calificacion], [IdAppReferenciaFK]) VALUES(${GposCapacidadeskeysForeings}, ${helperCapacidadesForeings}, ${helperSubcapacidadForeings}, ${FuncionalidadesCalificacionesForeings}, ${ArrComponentesComunesForeings}, ${Calificacion??0}, ${AppReferenciaFK});
+    `;
+
+});   
+
+//console.log(GpoCapacidadesInsert );
+//console.log(ArrCapacidades );
+//console.log(FuncionalidadesInsert);
+//console.log(ArrComponentesComunes);
+//console.log(SubCapacidadInsert);
+//console.log(GposCapacidadesData);
+
 
     async function SaveFile(){
 
-        console.log(path.join(__dirname.replace(".."), "gpo.json"));
 
         try {
             
@@ -215,29 +256,26 @@ console.log(ArrComponentesComunes, "===========================", ComponentesCom
                 resultDirCreate = fs.mkdirSync( path.join(beforeDir, "JsonData") );
             }
 
-        await fs.writeFile( path.join(beforeDir, "JsonData/FuncionalidadesInsert.sql"),     FuncionalidadesInsert    ,  ()=>{} );
-        await fs.writeFile( path.join(beforeDir, "JsonData/ComponentesComunesInsert.sql"),  ComponentesComunesInsert ,  ()=>{} );
-        await fs.writeFile( path.join(beforeDir, "JsonData/GpoCapacidadesInsert.sql"),      GpoCapacidadesInsert     ,  ()=>{} );
-        await fs.writeFile( path.join(beforeDir, "JsonData/ArrCapacidades.sql"),            ArrCapacidades           ,  ()=>{} );
-        await fs.writeFile( path.join(beforeDir, "JsonData/SubCapacidadInsert.sql"),        SubCapacidadInsert       ,  ()=>{} );
+        await fs.writeFile( path.join(beforeDir, "JsonData/gpo.json"), JSON.stringify(GposCapacidadesData, null, 4) ,  ()=>{} );
+
+        await fs.writeFile( path.join(beforeDir, "JsonData/GpoCapacidadesInsert.sql"),  GpoCapacidadesInsert ,     (err)=>console.log(err, "Gpo") );
+        await fs.writeFile( path.join(beforeDir, "JsonData/CapacidadesInsert.sql"),     ArrCapacidades ,           (err)=>console.log(err, "Capacidades") );
+        await fs.writeFile( path.join(beforeDir, "JsonData/SubCapacidadesInsert.sql"),  SubCapacidadInsert ,       (err)=>console.log(err, "SubCapacidades") );
+        await fs.writeFile( path.join(beforeDir, "JsonData/FuncionalidadesInsert.sql"), FuncionalidadesInsert ,    (err)=>console.log(err, "Funcionalidades") );
+        await fs.writeFile( path.join(beforeDir, "JsonData/ComponentesInsert.sql"),     ComponentesComunesInsert , (err)=>console.log(err, "Componentes"));
+        await fs.writeFile( path.join(beforeDir, "JsonData/AppsReferenciaInserts.sql"), AppReferenciaInserts , (err)=>console.log(err, "AppsReferencia"));
+        await fs.writeFile( path.join(beforeDir, "JsonData/Fc.sql"),                    dataToInsertAllForeings ,  (err)=>console.log(err, "Componentes"));
         
+
         return;
 
         } catch (err) {
         
-            console.error('Error parsing JSON:', err);
+            console.error('Error parsing :', err);
         
         }
      
    };
-   
-   
-
-
-    // let MainData =  [], 
-    helperCapacidades=[...new Set( objs.map(el=>el.Capacidad) )];
-    helperSubcapacidad=[...new Set( objs.map(el=>el.SubCapacidad) )];
-
     SaveFile();
 
 

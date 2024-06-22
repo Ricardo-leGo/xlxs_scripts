@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "componentesclave": "node \"Componentes comunes/Componentes comunes.js\"",
     "capacidadesclientes": "node \"Capacidades Clientes/script.js\"",
-    "grupos": "node \"Grupos/script.js\""
+    "grupos": "node \"Grupos/script.js\"", 
+    "aplicativos" :"node  \"Aplicativos/script.js\""
   },
   "keywords": [],
   "author": "",
