@@ -25,13 +25,13 @@ const ReadJson = async function(ruta=""){
 
            const StatusAplicativos =  [ ...new Set(jsonData.map(el =>el.Estatus))  ].map((el, i)=> ({Status:el, Id:i+1}) );
            
-           StatusInserts = StatusAplicativos.map((el, i)=> `INSERT INTO [EstatusAplicativo] ([Status],[Order],[DisplayName], [Active]) values (1,${i+1},'${el.Status}', 1);
+           StatusInserts = StatusAplicativos.map((el, i)=> `INSERT INTO [EstatusAplicativo] ([Status],[Order],[DisplayName]) values (1,${i+1},'${el.Status}';
            `).join("")
             console.log(StatusInserts);
 
 
             FileSqlInserts =  jsonData.map(el=>{
-                return    `INSERT INTO [Aplicativos] ([Aplicativo], [Salud], [Peso], [Factor], [IdEstatusFK], [Active]) values ('${el.Aplicativos}',${el.Salud},${el.Peso},${el.Factor},${ StatusAplicativos.find( k=>k.Status == el.Estatus ).Id },1 );
+                return    `INSERT INTO [Aplicativos] ([Aplicativo], [Salud], [Peso], [Factor], [IdEstatusFK]) values ('${el.Aplicativos}',${el.Salud},${el.Peso},${el.Factor},${ StatusAplicativos.find( k=>k.Status == el.Estatus ).Id } );
                 `;
             }  ).join("");
             

@@ -1,5 +1,5 @@
 var GrupoDeCapacidades =["Cliente", "Servicio Financiero", "Transacción", "Soporte"];
-const Columnas =  ["A", "B", "C", "D", "E", "F", "G"];
+const Columnas =  ["A", "B", "C", "D", "E", "F", "G", "F"];
 
 const XLSX = require('xlsx');
 const fs = require('fs');
@@ -17,7 +17,7 @@ let FuncYComp =  [];
 let Grupos = [];
 let GposCapacidadesData = {};
 
-for (let rowNum = 3; ; rowNum++) {
+for (let rowNum = 0; ; rowNum++) {
     const cellAddress =  columna + rowNum;
     const cell = worksheet[cellAddress];
 
@@ -25,6 +25,7 @@ for (let rowNum = 3; ; rowNum++) {
     if ( cell?.v == "break" ) {
         break;
     }
+    console.log( worksheet[cellAddress]);
 
     if(cell?.v !== undefined){
 
@@ -108,18 +109,20 @@ for (let rowNum = 3; ; rowNum++) {
     // Agregar el valor de la celda al arreglo
 }
 
-
+// console.log(objs, "=========");
 
 
 const GposCapacidades =  Object.keys(GposCapacidadesData).map(el=>el);
 const GposCapacidadeskeys =  Object.keys(GposCapacidadesData).map((el, i)=> ({GpoCapacidad:el, Foreingkey:i+1}));
 
-helperFuncionalidadCalificacion = [...new Set( FuncYComp.map(el=>el) )].sort((a,b)=>a<b?-1:1);
-let ComponentesComunes = [...new Set( objs.map(el=>el.ComponenteComun) )].sort((a,b)=>a<b?-1:1);
-let ArrAppsReferenciaraw = [...new Set( objs.map(el=>el.AppReferencia) )].sort((a,b)=>a<b?-1:1);
+helperFuncionalidadCalificacion = [...new Set( FuncYComp.map(el=>el) )];//.sort((a,b)=>a<b?-1:1);
+
+let ComponentesComunes = [...new Set( objs.map(el=>el.ComponenteComun) )];//.sort((a,b)=>a<b?-1:1);
+let ArrAppsReferenciaraw = [...new Set( objs.map(el=>el.AppReferencia) )];//.sort((a,b)=>a<b?-1:1);
 let FuncionalidadesCalificaciones = [];
 let ArrComponentesComunes = [];
 let ArrAppsReferencia = [];
+let dataToInsertAllForeings = "", AppReferenciaInserts ="";
 
 
 
@@ -145,8 +148,7 @@ helperFuncionalidadCalificacion.forEach( (el, fcindex) => {
 
 
     FuncionalidadesInsert+=`
-    INSERT INTO Funcionalidad ([Funcionalidad], Calificacion) VALUES('${el}', ${objs.find(k => k.Funcionalidad == el).Calificacion??0});
-    `;
+    INSERT INTO Funcionalidades ([Funcionalidad], Calificacion) VALUES('${el}', ${objs.find(k => k.Funcionalidad == el).Calificacion??0});`;
 
 });
 
@@ -160,23 +162,21 @@ ComponentesComunes.forEach( (el, fcindex) => {
 
 
     ComponentesComunesInsert+=`
-    INSERT INTO ComponentesComunes ([Componente]) VALUES('${el}');
-    `;
+    INSERT INTO ComponentesComunes ([Componente]) VALUES('${el}');`;
 
 });
 
-ArrAppsReferenciaraw.forEach( (el, fcindex) => {
+
+ArrAppsReferenciaraw.forEach( (el, AppIndex) => {
 
     ArrAppsReferencia.push({
-        AppsReferencia:el,
-        Id:fcindex+1
+        AppReferencia:el,
+        Id:AppIndex+1
     });
-
+    
 
     AppsReferenciaInserts +=`
-    INSERT INTO AppsReferencia ([App]) VALUES('${el}');
-    `;
-    console.log(AppsReferenciaInserts);
+    INSERT INTO AppsReferencia ([App]) VALUES('${el}');`;
 
 });
 
@@ -186,25 +186,22 @@ let ComponentesArr=[];
 GposCapacidades.forEach( (Grupo, MainIndex)=> {
 
 
-     ArrCapacidadesSorted =  GposCapacidadesData[Grupo].sort((a,b) => a.Capacidad<b.Capacidad?-1:1);
+     ArrCapacidadesSorted =  GposCapacidadesData[Grupo]//.sort((a,b) => a.Capacidad<b.Capacidad?-1:1);
     
     GpoCapacidadesInsert += `
-    INSERT INTO GrupoDeCapacidades ([Grupo]) VALUES('${Grupo}');
-    `;
+    INSERT INTO GrupoDeCapacidades ([Grupo]) VALUES('${Grupo}');`;
      ArrCapacidadesSorted.forEach((({Capacidad, SubCapacidades} , CapacidadIndex)=>{
 
 
         ArrCapacidades +=`
-    INSERT INTO CapacidadDeNegocio ([Capacidad]) VALUES ('${Capacidad}' );
-    `
+    INSERT INTO CapacidadDeNegocio ([Capacidad]) VALUES ('${Capacidad}' );`
 
-        ArrSubCapacidadesSorted =  SubCapacidades.sort( (a,b)=>a.Subcapacidad<b.SubCapacidad?-1:1);
+        ArrSubCapacidadesSorted =  SubCapacidades//.sort( (a,b)=>a.Subcapacidad<b.SubCapacidad?-1:1);
 
         ArrSubCapacidadesSorted.forEach(({SubCapacidad})=>{
             
             SubCapacidadInsert += `
-            INSERT INTO SubCapacidad ([SubCapacidad]) Values('${SubCapacidad}');
-            `;
+            INSERT INTO SubCapacidades ([SubCapacidad]) Values('${SubCapacidad}');`;
 
         })
 
@@ -216,21 +213,21 @@ helperCapacidades=[...new Set( objs.map(el=>el.Capacidad) )].map((el, i)=>({Capa
 helperSubcapacidad=[...new Set( objs.map(el=>el.SubCapacidad) )].map((el, i)=> ({SubCapacidad:el, Foreingkey:i+1}));
 
 
-let dataToInsertAllForeings = "", AppReferenciaInserts ="";
 
 objs.forEach( ({GrupoCapacidades, Capacidad, SubCapacidad, Funcionalidad, ComponenteComun, Calificacion, AppReferencia}) =>{
+
+
 
     const GposCapacidadeskeysForeings           = GposCapacidadeskeys.find(k=> k.GpoCapacidad===GrupoCapacidades).Foreingkey;
     const helperCapacidadesForeings             = helperCapacidades.find(k => k.Capacidad === Capacidad ).Foreingkey;
     const helperSubcapacidadForeings            = helperSubcapacidad.find(k=> k.SubCapacidad === SubCapacidad ).Foreingkey;
     const FuncionalidadesCalificacionesForeings = FuncionalidadesCalificaciones.find(k=> k.Funcionalidad === Funcionalidad ).Id;
     const ArrComponentesComunesForeings         = ArrComponentesComunes.find(k => k.Componente === ComponenteComun ).Id;
-    const AppReferenciaFK                       = ArrAppsReferencia.find(k => k.AppReferencia === AppReferencia ).Id;
+    const AppReferenciaFK                       = ArrAppsReferencia.find(k => k.AppReferencia == AppReferencia ).Id;
 
 
     dataToInsertAllForeings += `
-    INSERT INTO MpComponentesYFuncionalidades ([IdGrupoFK], [IdCapacidadDeNegocioFK], [IdSubCapacidadFK], [IdFuncionalidadesFK], [IdComponentesComunesFK], [Calificacion], [IdAppReferenciaFK]) VALUES(${GposCapacidadeskeysForeings}, ${helperCapacidadesForeings}, ${helperSubcapacidadForeings}, ${FuncionalidadesCalificacionesForeings}, ${ArrComponentesComunesForeings}, ${Calificacion??0}, ${AppReferenciaFK});
-    `;
+    INSERT INTO MpComponentesYFuncionalidades ([IdGrupoFK], [IdCapacidadDeNegocioFK], [IdSubCapacidadFK], [IdFuncionalidadesFK], [IdComponentesComunesFK], [Calificacion], [IdAppReferenciaFK]) VALUES(${GposCapacidadeskeysForeings-1}, ${helperCapacidadesForeings-1}, ${helperSubcapacidadForeings-1}, ${FuncionalidadesCalificacionesForeings-1}, ${ArrComponentesComunesForeings-1}, ${Calificacion??0}, ${AppReferenciaFK-1});`;
 
 });   
 
@@ -263,7 +260,7 @@ objs.forEach( ({GrupoCapacidades, Capacidad, SubCapacidad, Funcionalidad, Compon
         await fs.writeFile( path.join(beforeDir, "JsonData/SubCapacidadesInsert.sql"),  SubCapacidadInsert ,       (err)=>console.log(err, "SubCapacidades") );
         await fs.writeFile( path.join(beforeDir, "JsonData/FuncionalidadesInsert.sql"), FuncionalidadesInsert ,    (err)=>console.log(err, "Funcionalidades") );
         await fs.writeFile( path.join(beforeDir, "JsonData/ComponentesInsert.sql"),     ComponentesComunesInsert , (err)=>console.log(err, "Componentes"));
-        await fs.writeFile( path.join(beforeDir, "JsonData/AppsReferenciaInserts.sql"), AppReferenciaInserts , (err)=>console.log(err, "AppsReferencia"));
+        await fs.writeFile( path.join(beforeDir, "JsonData/AppsReferenciaInserts.sql"), AppsReferenciaInserts , (err)=>console.log(err, "AppsReferencia"));
         await fs.writeFile( path.join(beforeDir, "JsonData/Fc.sql"),                    dataToInsertAllForeings ,  (err)=>console.log(err, "Componentes"));
         
 
