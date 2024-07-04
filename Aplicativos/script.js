@@ -25,14 +25,14 @@ const ReadJson = async function(ruta=""){
 
            const StatusAplicativos =  [ ...new Set(jsonData.map(el =>el.Estatus))  ].map((el, i)=> ({Status:el, Id:i+1}) );
            
-           StatusInserts = StatusAplicativos.map((el, i)=> `INSERT INTO [EstatusAplicativo] ([Status],[Order],[DisplayName]) values (1,${i+1},'${el.Status}';
+           StatusInserts = StatusAplicativos.map((el, i)=> `INSERT INTO [EstatusAplicativo] ([Estatus],[Order],[DisplayName]) values (1,${i+1},'${el.Status}');
            `).join("")
             console.log(StatusInserts);
 
 
             FileSqlInserts =  jsonData.map(el=>{
-                return    `INSERT INTO [Aplicativos] ([Aplicativo], [Salud], [Peso], [Factor], [IdEstatusFK]) values ('${el.Aplicativos}',${el.Salud},${el.Peso},${el.Factor},${ StatusAplicativos.find( k=>k.Status == el.Estatus ).Id } );
-                `;
+                return    `INSERT INTO [Aplicativos] (Nombre, [Salud], [Peso], [Factor], [IdEstatusFK]) values ('${el.Aplicativos}',${el.Salud},${el.Peso},${el.Factor},${ StatusAplicativos.find( k=>k.Status == el.Estatus ).Id } );
+`;
             }  ).join("");
             
             await fs.writeFile( path.join(__dirname, "inserts.sql"),    (StatusInserts+FileSqlInserts).toString(),  ()=>{} );

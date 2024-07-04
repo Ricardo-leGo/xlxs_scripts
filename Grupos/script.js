@@ -25,7 +25,6 @@ for (let rowNum = 0; ; rowNum++) {
     if ( cell?.v == "break" ) {
         break;
     }
-    console.log( worksheet[cellAddress]);
 
     if(cell?.v !== undefined){
 
@@ -197,8 +196,8 @@ GposCapacidades.forEach( (Grupo, MainIndex)=> {
     INSERT INTO CapacidadDeNegocio ([Capacidad]) VALUES ('${Capacidad}' );`
 
         ArrSubCapacidadesSorted =  SubCapacidades//.sort( (a,b)=>a.Subcapacidad<b.SubCapacidad?-1:1);
-
         ArrSubCapacidadesSorted.forEach(({SubCapacidad})=>{
+            console.log(SubCapacidad, "============");
             
             SubCapacidadInsert += `
             INSERT INTO SubCapacidades ([SubCapacidad]) Values('${SubCapacidad}');`;

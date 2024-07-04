@@ -1,0 +1,2382 @@
+{
+    "Grupo de Capacidades": [
+        {
+            "Capacidad": "Capacidad Empresarial",
+            "SubCapacidades": [
+                {
+                    "SubCapacidad": "Sub Capacidad",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Funcionalidad",
+                            "Componente": "Componente común candidato"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Cliente": [
+        {
+            "Capacidad": "Conocimiento de Cliente",
+            "SubCapacidades": [
+                {
+                    "SubCapacidad": "Identificación de Cliente",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Búsqueda de Cliente",
+                            "Componente": "Búsqueda de cliente"
+                        },
+                        {
+                            "Funcionalidad": "Búsqueda de Afiliación",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de datos de Cliente",
+                            "Componente": "Consulta del Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Búsqueda por ID BEM en BEM",
+                            "Componente": "Consulta de servicios financieros contratados"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de segmento de Cliente",
+                            "Componente": "Consulta del Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Búsqueda por nombre en Chat Pyme Genesys",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Búsqueda de cliente de Casa de bolsa",
+                            "Componente": "Consulta de servicios financieros contratados"
+                        },
+                        {
+                            "Funcionalidad": "Consulta información de usuario",
+                            "Componente": "Consulta información de usuario en Directorio Activo"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de datos de cliente en BEM",
+                            "Componente": "Consulta datos de cliente"
+                        },
+                        {
+                            "Funcionalidad": "Validación de datos de cliente entre BEM y Altamira",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de personas relaciondas al Cliente",
+                            "Componente": "Administración de Relaciones del Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de representantes Banorte",
+                            "Componente": "Consulta de representantes Banorte"
+                        },
+                        {
+                            "Funcionalidad": "Consulta datos de comercio",
+                            "Componente": "Consulta datos de cliente"
+                        },
+                        {
+                            "Funcionalidad": "Consulta datos de emisora",
+                            "Componente": "Consulta datos de cliente"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Perfilamiento de Persona",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Perfilador de Cliente",
+                            "Componente": "Perfilador de cliente"
+                        },
+                        {
+                            "Funcionalidad": "Perfilador de riesgos de Inversiones",
+                            "Componente": "Perfilador de cliente"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Validación de datos de cliente",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Validación de medio de contacto - Email",
+                            "Componente": "Validación de Medios de Contactos"
+                        },
+                        {
+                            "Funcionalidad": "Validación de medio de contacto - Teléfono (sms)",
+                            "Componente": "Validación de Medios de Contactos"
+                        },
+                        {
+                            "Funcionalidad": "Validación de CURP en RENAPO",
+                            "Componente": "Validación de CURP en RENAPO /Alta de Cliente/Mantenimiento de Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Validación de datos de INE en INE",
+                            "Componente": "Validación de datos de INE en INE"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Analítica del Cliente",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Almacenamiento de información de analítica",
+                            "Componente": "NA"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Capacidad": "Autenticación de Cliente",
+            "SubCapacidades": [
+                {
+                    "SubCapacidad": "Autenticación C1",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Registro KYC",
+                            "Componente": "Mantenimientos de Datos del Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Autenticación por preguntas de seguridad",
+                            "Componente": "Soporte para recuperación de medios de autenticación"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Autenticación C2",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Autenticación por usuario / contraseña - Cliente",
+                            "Componente": "Autenticación por usuario / contraseña - Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Autenticación por usuario / contraseña - Ejecutivo",
+                            "Componente": "Autenticación por usuario / contraseña - Ejecutivo"
+                        },
+                        {
+                            "Funcionalidad": "Autenticación clave de acceso telefónico",
+                            "Componente": "Autenticación de clave única de acceso"
+                        },
+                        {
+                            "Funcionalidad": "Autenticación por patrón (Android)",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Autenticación por CAT (Clave de Atención Telefónica) ",
+                            "Componente": "NA"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Autenticación C3",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Autenticación por Token físico",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Autenticación por Token celular",
+                            "Componente": "NA"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Autenticación C4",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Autenticación por huella",
+                            "Componente": "Autenticación Presencial (Biométricos)"
+                        },
+                        {
+                            "Funcionalidad": "Autenticación voz",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Autenticación por selfie",
+                            "Componente": "Autenticación No Presencial (INCODE)"
+                        },
+                        {
+                            "Funcionalidad": "Autenticación por reconocimiento facial (INE vs Selfie)",
+                            "Componente": "Autenticación No Presencial (INCODE)"
+                        },
+                        {
+                            "Funcionalidad": "Autenticación iris",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Autenticación por firma digital",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Autenticación biométrica conductual",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Validación prueba de vida -  videollamada en tiempo real",
+                            "Componente": "Conversación con el Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Validación de prueba de vida - grabación",
+                            "Componente": "Autenticación No Presencial (INCODE)"
+                        },
+                        {
+                            "Funcionalidad": "Enrolamiento de huella",
+                            "Componente": "Alta del Método de Seguridad (Enrolamiento)"
+                        },
+                        {
+                            "Funcionalidad": "Enrolamiento de voz",
+                            "Componente": "Alta del Método de Seguridad (Enrolamiento)"
+                        },
+                        {
+                            "Funcionalidad": "Enrolamiento de Iris",
+                            "Componente": "Alta del Método de Seguridad (Enrolamiento)"
+                        },
+                        {
+                            "Funcionalidad": "Enrolamiento de Selfie",
+                            "Componente": "Alta del Método de Seguridad (Enrolamiento)"
+                        },
+                        {
+                            "Funcionalidad": "Almacenamiento de biométricos",
+                            "Componente": "Alta del Método de Seguridad (Enrolamiento)"
+                        },
+                        {
+                            "Funcionalidad": "Autenticación por FIDO (Fast Identity Online)",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Enrolamiento por FIDO (Fast Identity Online)",
+                            "Componente": "NA"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Capacidad": "Alta de Cliente",
+            "SubCapacidades": [
+                {
+                    "SubCapacidad": "Alta datos de Cliente",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Registro de cliente",
+                            "Componente": "Alta de Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Registro de datos complementarios de Cliente",
+                            "Componente": "Alta de Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Registro de datos de contacto (email)",
+                            "Componente": "Alta de Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Registro de datos de contacto (teléfono)",
+                            "Componente": "Alta de Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Alta de cliente en sistema de cartera",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Alta de prospectos",
+                            "Componente": "NA"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Capacidad": "Mantenimiento de datos de Cliente",
+            "SubCapacidades": [
+                {
+                    "SubCapacidad": "Actualización de datos Cliente",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Alta de Comercio",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Modificación de Comercio",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Baja de Comercio",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Mantenimiento de empresa de Nómina",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Actualización de datos de contacto (email / teléfono) de cliente",
+                            "Componente": "Mantenimientos de Datos del Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Actualización de Poderes",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Actualización de Representantes Legales",
+                            "Componente": "Administración de Relaciones del Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Actualización de Apoderados",
+                            "Componente": "Administración de Relaciones del Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Alta de Beneficiarios",
+                            "Componente": "Administración de Relaciones del Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Mantenimiento  de Beneficiarios",
+                            "Componente": "Administración de Relaciones del Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Cambio de régimen",
+                            "Componente": "Mantenimientos de Datos del Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Mantenimiento de datos básicos de Cliente",
+                            "Componente": "Mantenimientos de Datos del Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Mantenimiento de RFC de Cliente",
+                            "Componente": "Mantenimientos de Datos del Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Mantenimiento de CURP de cliente",
+                            "Componente": "Mantenimientos de Datos del Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Cambio de NIP",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Mantenimiento de cliente en sistema de Cartera",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Actualización de Razón Social de cliente",
+                            "Componente": "Mantenimientos de Datos del Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Actualización de Apoderados en BEM",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Mantenimiento de RFC de cliente en BEM",
+                            "Componente": "Mantenimientos de Datos del Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Baja de empresa",
+                            "Componente": "NA"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Servicio Financiero": [
+        {
+            "Capacidad": "Oferta de Servicios Financieros",
+            "SubCapacidades": [
+                {
+                    "SubCapacidad": "Oferta Valor",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Generación de oferta personalizada",
+                            "Componente": "Generar Oferta de Valor"
+                        },
+                        {
+                            "Funcionalidad": "Generación de oferta general",
+                            "Componente": "Generar Oferta de Valor"
+                        },
+                        {
+                            "Funcionalidad": "Simulador de ofertas generales",
+                            "Componente": "Simulador de servicio financiero"
+                        },
+                        {
+                            "Funcionalidad": "Simulador de ofertas personalizadas",
+                            "Componente": "Simulador de servicio financiero"
+                        },
+                        {
+                            "Funcionalidad": "Ficha de producto - servicio",
+                            "Componente": "Generar Oferta de Valor"
+                        },
+                        {
+                            "Funcionalidad": "Generación de precios personalizados",
+                            "Componente": "Gestor de Productos y Ofertas"
+                        },
+                        {
+                            "Funcionalidad": "Calculadora de Ingresos",
+                            "Componente": "Generar Oferta de Valor"
+                        },
+                        {
+                            "Funcionalidad": "Alta de condiciones financieras",
+                            "Componente": "Generar Oferta de Valor"
+                        },
+                        {
+                            "Funcionalidad": "Carga de calculadora financiera",
+                            "Componente": "Simulador de servicio financiero"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Campañas",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Generación de Campaña",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de Campaña vigente",
+                            "Componente": "NA"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Capacidad": "Contratación de Servicios Financieros",
+            "SubCapacidades": [
+                {
+                    "SubCapacidad": "Alta de Servicio Financiero",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Alta de cuenta digital - N2",
+                            "Componente": "Alta de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Alta de cuenta N4",
+                            "Componente": "Alta de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Generación de plástico electrónico",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Alta de línea TDC",
+                            "Componente": "Alta de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Alta de línea en sistema de cartera",
+                            "Componente": "Alta de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Alta de crédito en sistema de Cartera",
+                            "Componente": "Alta de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Alta de línea en Master de Líneas",
+                            "Componente": "Alta de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Alta de grupo en Master de Líneas",
+                            "Componente": "Alta de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Registro de Afiliación",
+                            "Componente": "Alta de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Registro de dispositivo TPV",
+                            "Componente": "Alta de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Validación de información de la afiliación",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Solicitud de alta de Afiliación en PROSA",
+                            "Componente": "Alta de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Validación de alta automática en aplicativos ",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Envío de contratos de producto por email",
+                            "Componente": "NA"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Activación de Servicio Financiero",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Activación de cuenta TDD",
+                            "Componente": "Activación / Desactivación de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Activación de promoción en TDC",
+                            "Componente": "Activación / Desactivación de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Activación de promoción en TDD",
+                            "Componente": "Activación / Desactivación de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Alta de solicitud de servicio TDD Empresarial ",
+                            "Componente": "Activación / Desactivación de Servicio Financiero"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Alta de accesorios",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Alta de plástico genérico",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Asignación de plástico nominativo",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Registro de plásticos TDD a solicitar",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Alta de TDD empresarial",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Alta de TDD Empresarial adicional",
+                            "Componente": "NA"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Activación de accesorios",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Activación Banca en línea",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Activación Banortel",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Activación en Banca en línea empresarial",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Alta de Chequera",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Activación de Correspondencia",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Activación de Alertas",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Generación de Cheque protegido",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Activación de envío de Estado de cuenta",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Asignación de token físico",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Asociación de banca empresarial",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Habilitación de micro sitio BEM",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Activación de plástico TDC",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Activación de plástico TDD",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Generación de código de activación de plástico",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Habilitación de token celular",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Activación de servicio CODI",
+                            "Componente": "NA"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Entrega de Servicio Financiero",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Entrega de token físico",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Entrega de plástico",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Instalación de TPV´s",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Instalación de aplicativo Conexión Banorte",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Entrega de contrato de producto - físico",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Entrega de dispositivo FIDO (Fast Identity Online)",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Entrega de Carta de liberación (Casa)",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Entrega de Carta factura (Vehículo)",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Entrega de chequera nominativa",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Entrega de chequera genérica",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Entrega de Contrato de servicio - email",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Entrega de Contrato de servicio - físico",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Entrega de Póliza - email",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Entrega de Póliza - físico",
+                            "Componente": "NA"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Capacidad": "Mantenimiento de Servicio Financiero",
+            "SubCapacidades": [
+                {
+                    "SubCapacidad": "Mantenimiento de Servicio Financiero",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Adquisición de equipos adicionales (TPV´s)",
+                            "Componente": "Mantenimiento de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Migración de cuenta",
+                            "Componente": "Mantenimiento de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Bloqueo de cuenta de captación",
+                            "Componente": "Mantenimiento de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Bloqueo de cuenta TDC",
+                            "Componente": "Mantenimiento de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Desbloqueo de cuenta de captación",
+                            "Componente": "Mantenimiento de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Desbloqueo de cuenta TDC",
+                            "Componente": "Mantenimiento de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Cambio de tarifas en cuentas nominativas",
+                            "Componente": "Mantenimiento de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Cambio de línea TDC en Visión",
+                            "Componente": "Mantenimiento de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Incremento de línea de crédito",
+                            "Componente": "Mantenimiento de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Enlace de cuentas",
+                            "Componente": "Mantenimiento de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Alta de cuentas propias PM en BEM",
+                            "Componente": "Mantenimiento de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Alta de cuentas de terceros PM en BEM",
+                            "Componente": "Mantenimiento de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Alta de cuentas de terceros PF en BEM",
+                            "Componente": "Mantenimiento de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Liberación de transacción retenida TDD",
+                            "Componente": "Mantenimiento de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Liberación de transacción retenida TDC",
+                            "Componente": "Mantenimiento de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Alta de cuentas propias",
+                            "Componente": "Mantenimiento de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Alta de cuentas de terceros",
+                            "Componente": "Mantenimiento de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Renovación de Crédito",
+                            "Componente": "Mantenimiento de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Extensión del plazo de un crédito",
+                            "Componente": "Mantenimiento de Servicio Financiero"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Mantenimiento de accesorios",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Reposición de Token físico",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Renovación de Token celular",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Renovación de Token físico",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Asignación de Token adicional",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reposición de usuario y contraseña para medios digitales",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Convenio Modificatorio",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Renovación de afiliación",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Actualización de clave de acceso Banortel",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Cambio de administradores de Banca empresarial",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Asignación de nueva contraseña de token ",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Sustitución de token físico",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reposición de dispositivo FIDO (Fast Identity Online)",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Bloqueo de plástico TDD",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Bloqueo de plástico TDC",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Desbloqueo de plástico TDD",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Desbloqueo de plástico TDC",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reposición de plástico TDD",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reposición de plástico TDC",
+                            "Componente": "NA"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Consulta datos de Servicio Financiero\r\n",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Consulta de cuentas de Cliente",
+                            "Componente": "Consulta de saldos y Movimientos"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de beneficiarios",
+                            "Componente": "Consulta de saldos y Movimientos"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de saldos de una cuenta de captación",
+                            "Componente": "Consulta de saldos y Movimientos"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de saldos de una cuenta de crédito",
+                            "Componente": "Consulta de saldos y Movimientos"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de movimientos de una cuenta de captación",
+                            "Componente": "Consulta de saldos y Movimientos"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de movimientos de una cuenta de crédito",
+                            "Componente": "Consulta de saldos y Movimientos"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de saldos de crédito",
+                            "Componente": "Consulta de saldos y Movimientos"
+                        },
+                        {
+                            "Funcionalidad": "Consultar movimientos de un crédito",
+                            "Componente": "Consulta de saldos y Movimientos"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de movimientos de una cuenta de Inversiones",
+                            "Componente": "Consulta de saldos y Movimientos"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de Clabe Interbancaria de una cuenta TDD",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de estatus de contratación de producto",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de cuentas de cliente Casa de Bolsa",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Búsqueda de participantes",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de contratos de Cliente",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de contratos de Cliente Casa de bolsa",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta detalles de sucursal",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta cuentas propias en BEM",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Validación de datos de cuentas entre BEM y Altamira",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de giros de PROSA",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de solicitudes de alta de nomina habientes",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Validación de cuenta para solicitar un servicio adicional",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de transacciones retenidas",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de transacciones posteadas",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta histórica de comportamiento de valores",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de cuentas de inversiones de cliente",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de póliza de seguro de auto",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de Terminal Punto de Venta",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Generación de estado de cuenta de un cliente",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de puntos de TDC",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consultar detalle de movimientos de una cuenta",
+                            "Componente": "Consulta de saldos y Movimientos"
+                        },
+                        {
+                            "Funcionalidad": "Consulta detalle de cartas de instrucción transaccionales",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta detalle de honorarios",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Validación de Banca electrónica activa",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Validación de Banca Telefónica activa",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de histórico de peticiones",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de estatus de folio de atención",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de estatus de contratación de un servicio",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de plásticos de Cliente ",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de token físico",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Búsqueda de mantenimientos BEM",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de solicitudes de verificaciones",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Búsqueda de solicitudes de dictamen",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta datos administradores BEM / BEP",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de CR",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta estatus de solicitudes de plásticos",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta estatus de cancelación de un servicio",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta bloqueo de plástico TDD",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta bloqueo de plástico TDC",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de administradores de banca Empresarial",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Recuperar datos de llamada de IVR",
+                            "Componente": "NA"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Capacidad": "Finalización del Servicio Financiero ",
+            "SubCapacidades": [
+                {
+                    "SubCapacidad": "Cancelación de Servicio Financiero",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Cancelación de Afiliación",
+                            "Componente": "Cancelación de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Cancelación de cuenta de captación",
+                            "Componente": "Cancelación de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Cancelación de cuenta digital",
+                            "Componente": "Cancelación de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Cancelación de cuenta de inversiones",
+                            "Componente": "Cancelación de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Cancelación de línea TDC",
+                            "Componente": "Cancelación de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Cancelación de Crédito",
+                            "Componente": "Cancelación de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Baja de cuentas propias en BEM",
+                            "Componente": "Cancelación de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Baja de cuentas de terceros en BEM",
+                            "Componente": "Cancelación de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Cancelación de Afiliación con PROSA",
+                            "Componente": "Cancelación de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Baja de cuentas de propias",
+                            "Componente": "Cancelación de Servicio Financiero"
+                        },
+                        {
+                            "Funcionalidad": "Baja de cuentas de terceros",
+                            "Componente": "Cancelación de Servicio Financiero"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Cancelación deAccesorios",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Cancelación de Banca en Línea",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Cancelación de Banca Telefónica",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Cancelación de Banca Empresarial",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Cancelación de correspondencia",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Baja de token físico",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Cancelación de seguro",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Cancelación de Alertas",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Cancelación de plástico TDD",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Cancelación de plástico TDC",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Cancelación de TDD Empresarial",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Baja de token celular",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Cancelación de servicio CODI",
+                            "Componente": "NA"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Transacción": [
+        {
+            "Capacidad": "Operación del Servicio Financiero",
+            "SubCapacidades": [
+                {
+                    "SubCapacidad": "Operación monetaria",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Dispersión de crédito",
+                            "Componente": "Hub de Pagos"
+                        },
+                        {
+                            "Funcionalidad": "Dispersión de Nómina",
+                            "Componente": "Consulta, mantenimiento de disposición de líneas de crédito"
+                        },
+                        {
+                            "Funcionalidad": "Abono a cuenta en línea TDD",
+                            "Componente": "Hub de Pagos\r\nAPI 11 - Corresponsales"
+                        },
+                        {
+                            "Funcionalidad": "Abono a cuenta TDD Fuera de Línea",
+                            "Componente": "Hub de Pagos"
+                        },
+                        {
+                            "Funcionalidad": "Abono a cuenta en línea TDC",
+                            "Componente": "Hub de Pagos"
+                        },
+                        {
+                            "Funcionalidad": "Cargo a cuenta en línea TDD",
+                            "Componente": "Hub de Pagos"
+                        },
+                        {
+                            "Funcionalidad": "Cargo cuenta en línea TDC",
+                            "Componente": "Hub de Pagos"
+                        },
+                        {
+                            "Funcionalidad": "Cobro de comisión por improcedencia en línea TDD",
+                            "Componente": "Hub de Pagos"
+                        },
+                        {
+                            "Funcionalidad": "Cobro de comisión por improcedencia en línea TDC",
+                            "Componente": "Hub de Pagos"
+                        },
+                        {
+                            "Funcionalidad": "Abono de comisión Ejecutivo",
+                            "Componente": "Hub de Pagos"
+                        },
+                        {
+                            "Funcionalidad": "Abono de comisión Agencia",
+                            "Componente": "Hub de Pagos"
+                        },
+                        {
+                            "Funcionalidad": "Recuperación TEF",
+                            "Componente": "Hub de Pagos"
+                        },
+                        {
+                            "Funcionalidad": "Devoluciones TEF",
+                            "Componente": "Hub de Pagos"
+                        },
+                        {
+                            "Funcionalidad": "Pago de intereses",
+                            "Componente": "Hub de Pagos"
+                        },
+                        {
+                            "Funcionalidad": "Cobro de comisión a cuenta",
+                            "Componente": "Hub de Pagos"
+                        },
+                        {
+                            "Funcionalidad": "Pago de TDC propia",
+                            "Componente": "Hub de Pagos"
+                        },
+                        {
+                            "Funcionalidad": "Pago de TDC Terceros",
+                            "Componente": "Hub de Pagos"
+                        },
+                        {
+                            "Funcionalidad": "Abono a cuenta TDC vía SPEI",
+                            "Componente": "Hub de Pagos"
+                        },
+                        {
+                            "Funcionalidad": "Pago de servicios",
+                            "Componente": "Hub de Pagos\r\nAPI 11 - Corresponsales"
+                        },
+                        {
+                            "Funcionalidad": "Transferencia propia",
+                            "Componente": "Hub de Pagos"
+                        },
+                        {
+                            "Funcionalidad": "Transferencia a terceros",
+                            "Componente": "Hub de Pagos"
+                        },
+                        {
+                            "Funcionalidad": "Transferencia otros bancos",
+                            "Componente": "Hub de Pagos"
+                        },
+                        {
+                            "Funcionalidad": "Depósito remoto de cheques",
+                            "Componente": "Hub de Pagos"
+                        },
+                        {
+                            "Funcionalidad": "Transferencia por QR (CODI)",
+                            "Componente": "Hub de Pagos"
+                        },
+                        {
+                            "Funcionalidad": "Compra de fondos de inversión",
+                            "Componente": "Hub de Pagos"
+                        },
+                        {
+                            "Funcionalidad": "Venta de fondos de inversión",
+                            "Componente": "Hub de Pagos"
+                        },
+                        {
+                            "Funcionalidad": "Pago de impuestos",
+                            "Componente": "Hub de Pagos"
+                        },
+                        {
+                            "Funcionalidad": "Transferencia TEF",
+                            "Componente": "Hub de Pagos"
+                        },
+                        {
+                            "Funcionalidad": "Generación de códigos para retiros sin tarjeta",
+                            "Componente": "Hub de Pagos"
+                        },
+                        {
+                            "Funcionalidad": "Cobros grupales",
+                            "Componente": "Hub de Pagos"
+                        },
+                        {
+                            "Funcionalidad": "Generación de cartas de instrucción transaccionales",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de estatus de una carta de instrucción transaccional",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Transferencias SPEI masivas",
+                            "Componente": "Hub de Pagos"
+                        },
+                        {
+                            "Funcionalidad": "Transferencias TEF masivas",
+                            "Componente": "Hub de Pagos"
+                        },
+                        {
+                            "Funcionalidad": "Compra y venta de dólares",
+                            "Componente": "Hub de Pagos"
+                        },
+                        {
+                            "Funcionalidad": "Pago en SIPARE/ IMSS",
+                            "Componente": "Hub de Pagos"
+                        },
+                        {
+                            "Funcionalidad": "Disposición de efectivo por referencia",
+                            "Componente": "Hub de Pagos\r\nAPI 11 - Corresponsales"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Monitoreo de producto",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Monitoreo de posteo de transacciones",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Monitoreo de saldos de cuentas de cliente",
+                            "Componente": "NA"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Generación de códigos dinámicos",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Generación dinámica de token celular",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Generación de CCV dinámico",
+                            "Componente": "NA"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Soporte": [
+        {
+            "Capacidad": "Notificaciones",
+            "SubCapacidades": [
+                {
+                    "SubCapacidad": "Gestión de notificaciones",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Notificación vía email",
+                            "Componente": "Generación de Notificación al Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Notificación vía sms doble vía",
+                            "Componente": "Mensaje doble vía (Envío de Mensaje de Doble vía al cliente, Recepción de respuestas del cliente doble vía)"
+                        },
+                        {
+                            "Funcionalidad": "Notificación vía sms",
+                            "Componente": "Generación de Notificación al Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Notificación push a dispositivo móvil",
+                            "Componente": "Generación de Notificación al Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Parametrización de plantillas de notificaciones",
+                            "Componente": "Generación de Notificación al Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Centralización de contenidos de mensajes",
+                            "Componente": "Generación de Notificación al Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Recepción de retroalimentación de mensajes",
+                            "Componente": "Generación de Notificación al Cliente"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Capacidad": "Gestión Documental",
+            "SubCapacidades": [
+                {
+                    "SubCapacidad": "Acopio de documentos",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Digitalización de documentos",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Carga de documentos zip (Oficios)",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Actualización de documentos de expediente digital",
+                            "Componente": "NA"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Validación de documentos",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Validación de comprobante de domicilio con sistemas externos",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Validación de Pasaporte en línea",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Validación automática de documentos",
+                            "Componente": "Validador Documental y Mesa de Validación"
+                        },
+                        {
+                            "Funcionalidad": "Validación de comprobante de ingresos  en el IMSS",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Validación de comprobante de ingresos  en el SAT",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Validación y clasificación de documentos asistida",
+                            "Componente": "Mesa de Validación"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Almacenamiento de documentos",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Resguardo de documentos de Cliente en Expediente Digital",
+                            "Componente": "Gestor documental"
+                        },
+                        {
+                            "Funcionalidad": "Resguardo de documentos de procesos en Expediente Digital",
+                            "Componente": "Gestor documental"
+                        },
+                        {
+                            "Funcionalidad": "Gestión de vigencias y ciclo de vida de documentos",
+                            "Componente": "Gestor documental"
+                        },
+                        {
+                            "Funcionalidad": "Administración de documentos temporales",
+                            "Componente": "Gestor documental"
+                        },
+                        {
+                            "Funcionalidad": "Control de versiones de documentos de Expediente Digital",
+                            "Componente": "Gestor documental"
+                        },
+                        {
+                            "Funcionalidad": "Centralización de documentos del Cliente",
+                            "Componente": "Gestor documental"
+                        },
+                        {
+                            "Funcionalidad": "Actualización de documentos en Expediente Digital",
+                            "Componente": "Gestor documental"
+                        },
+                        {
+                            "Funcionalidad": "Resguardo de documentos valor del Cliente - físicos",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Resguardo de documentos valor del Cliente - Digital",
+                            "Componente": "Gestor documental"
+                        },
+                        {
+                            "Funcionalidad": "Resguardo de documentos de prospecto (interviniente) en Expediente Digital",
+                            "Componente": "Gestor documental"
+                        },
+                        {
+                            "Funcionalidad": "Clasificación automática de documentos contractuales",
+                            "Componente": "Validador Documental y Mesa de Validación"
+                        },
+                        {
+                            "Funcionalidad": "Resguardo de documentos de la afiliación en Expediente digital",
+                            "Componente": "Gestor documental"
+                        },
+                        {
+                            "Funcionalidad": "Resguardo de contrato del producto en expediente digital",
+                            "Componente": "Gestor documental"
+                        },
+                        {
+                            "Funcionalidad": "Resguardo de dictamen jurídico en expediente digital",
+                            "Componente": "Gestor documental"
+                        },
+                        {
+                            "Funcionalidad": "Resguardo de documento de cancelación de servicio en expediente digital",
+                            "Componente": "Gestor documental"
+                        },
+                        {
+                            "Funcionalidad": "Documento de trazabilidad (Custodia digital)",
+                            "Componente": "Custodia Digital (Archivo de Trazabilidad)"
+                        },
+                        {
+                            "Funcionalidad": "Almacenamiento de metadatos de documentos",
+                            "Componente": "Gestor documental"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Emisión de documentos",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Emisión de Contrato Múltiple",
+                            "Componente": "Generación de Contratos (debe de evolucionar al Generador de Documentos)"
+                        },
+                        {
+                            "Funcionalidad": "Generación de contrato de producto",
+                            "Componente": "Generación de Contratos (debe de evolucionar al Generador de Documentos)"
+                        },
+                        {
+                            "Funcionalidad": "Generación de cupón de producto",
+                            "Componente": "Generación de Contratos (debe de evolucionar al Generador de Documentos)"
+                        },
+                        {
+                            "Funcionalidad": "Centralización de emisión de documentos",
+                            "Componente": "Generación de Contratos (debe de evolucionar al Generador de Documentos)"
+                        },
+                        {
+                            "Funcionalidad": "Parametrización de plantillas de documentos",
+                            "Componente": "Generación de Contratos (debe de evolucionar al Generador de Documentos)"
+                        },
+                        {
+                            "Funcionalidad": "Control de versiones de documentos",
+                            "Componente": "Generación de Contratos (debe de evolucionar al Generador de Documentos)"
+                        },
+                        {
+                            "Funcionalidad": "Impresión de documento",
+                            "Componente": "Generación de Contratos (debe de evolucionar al Generador de Documentos)"
+                        },
+                        {
+                            "Funcionalidad": "Reimpresión de documento",
+                            "Componente": "Generación de Contratos (debe de evolucionar al Generador de Documentos)"
+                        },
+                        {
+                            "Funcionalidad": "Emisión de estados de cuenta digital",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Emisión de constancias de créditos hipotecarios",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Emisión de cartas de no adeudo",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Emisión de ficha Técnica (Aclaraciones)",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Emisión de Carta Dictamen",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Sello digital de SECOBAN",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Emisión de Carta respuesta (Oficios)",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Generación de plantilla de mantenimiento",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Emisión de verificación de sociedad o propiedad",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Generación de baja de servicio TDD Empresarial",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Generación de documento de mantenimiento de servicio TDD Empresarial",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Generación de constancia de PLD para Fideicomisos",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Generación de documento Conoce a tu cliente para Fideicomisos",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Generación de documento Alta Contable para Fideicomisos",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Generación de documento Solicitud de Estructura Accionaria e Identificación del Propietario Real",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Generación de formato de visita ocular",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Generación de comprobante de abono (CDA) SPEI",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Emisión de comprobante de operación monetaria",
+                            "Componente": "NA"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Consulta de documentos",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Consulta de documentos vigentes",
+                            "Componente": "Visor Documental"
+                        },
+                        {
+                            "Funcionalidad": "Consulta todas las versiones de un documento",
+                            "Componente": "Visor Documental"
+                        },
+                        {
+                            "Funcionalidad": "Administración de accesos para consulta",
+                            "Componente": "Visor Documental"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de documentos de cliente en Expediente digital",
+                            "Componente": "Visor Documental"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de documentos de prospecto (interviniente) en Expediente digital",
+                            "Componente": "Visor Documental"
+                        },
+                        {
+                            "Funcionalidad": "Visualizar documentos",
+                            "Componente": "Visor Documental"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de oficios en expediente digital",
+                            "Componente": "Visor Documental"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de documentos de mantenimiento en expediente digital",
+                            "Componente": "Visor Documental"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de dictamen Jurídico  en expediente digital",
+                            "Componente": "Visor Documental"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de documentos de la afiliación en expediente digital",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de verificaciones en expediente digital",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de evidencias de aclaración en expediente digital",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de carta dictamen de aclaración en expediente digital",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta notificación de aclaración en expediente digital",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta ficha técnica de aclaración en expediente digital",
+                            "Componente": "NA"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Evaluación de Riesgos de Cliente",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Consulta a Buró Interno",
+                            "Componente": "Evaluación del Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Consulta Motor de Riesgos",
+                            "Componente": "Evaluación del Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Búsqueda en listas negras de personas",
+                            "Componente": "Evaluación del Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Búsqueda en listas negras de teléfonos",
+                            "Componente": "Evaluación del Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Búsqueda en Listas PEP´s",
+                            "Componente": "Evaluación del Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Búsqueda en PLD",
+                            "Componente": "Evaluación del Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Registro KYC",
+                            "Componente": "Evaluación del Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Registro de Auto certificado FATCA",
+                            "Componente": "Evaluación del Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Generación de cédula de evaluación de riesgo para prospectos de fideicomiso",
+                            "Componente": "Evaluación del Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Generación de cédula de clasificación de riesgo de cliente para Fideicomisos",
+                            "Componente": "Evaluación del Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Actualización de cédula de clasificación de riesgo de cliente de Fideicomiso",
+                            "Componente": "Evaluación del Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de clientes CARS y Politicamente Expuestas (PEP) para Fideicomisos",
+                            "Componente": "Evaluación del Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Generación de alertas de clientes de alto riesgo para Fideicomisos",
+                            "Componente": "Evaluación del Cliente"
+                        },
+                        {
+                            "Funcionalidad": "Evaluación de personas identificadas en Listas Negras para Fideicomisos",
+                            "Componente": "Evaluación del Cliente"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Evaluación de riesgos para contratación de Servicio Financiero",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Consulta Buró de Crédito",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Estudio de Crédito",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Capacidad de Pago",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta Motor de Riesgos",
+                            "Componente": "NA"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Reportes Regulatorios",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Reporte R27 Controversias",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte R27 automático",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte REUNE",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte R27A",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte R27B",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte REDECO",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte de cédulas PLD de Nivel de riesgo del cliente generadas para Fideicomisos",
+                            "Componente": "NA"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Reportes Operativos",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Reporte de Auditoria",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte de Ordenes de dictamen",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte detallado de nómina",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte diario de altas",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte de autorizaciones",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte de rechazos por etapa de proceso",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte de niveles de servicio",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte de número de cuentas por proceso",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte de detalle de instancias por etapa",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte de detalle de trámites  cancelados por etapa",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Remesa",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte de Contracargos",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte de Representaciones",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte de Solicitudes de pagaré",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte de Rechazos Operativos",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte de operaciones monetarias",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte de disputa",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte de autorizaciones otorgadas",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte general de control a nivel transacción",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte general de control a nivel solicitud",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte general PORI",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte general de control de solicitudes por Gerencia",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte General de Bonificaciones",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Archivo Ráfaga",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Bonificaciones con error en BPM",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte de rechazos",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte de usuarios",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte de número y monto total por concepto bonificación",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte genérico de Cargos Retenidos",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte de Retenciones Liberadas Cargos Retenidos",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte general de control y seguimiento REDECO",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Generación de bitácora de prospectos de Fideicomiso",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Generación de reporte de casos de riesgo evaluados para Fideicomiso",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte de pagos a cuentas concentradoras para Fideicomiso",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte de operaciones SPEI y TEF realizadas",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte de operaciones monetarias TEF canceladas",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte de recepción de pagos TDC vía SPEI",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte de pagos TDC desfasados vía SPEI",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reporte de penalizaciones por demora en aplicación de abono TDC",
+                            "Componente": "NA"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Experiencia de Cliente",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Actualización de base de datos de clientes",
+                            "Componente": "Gestor de Encuestas al Cliente (Medallia)"
+                        },
+                        {
+                            "Funcionalidad": "Generación de encuestas de satisfacción",
+                            "Componente": "Gestor de Encuestas al Cliente (Medallia)"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Relación con el Cliente",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Registro de bitácora de interacciones de cliente",
+                            "Componente": "Consulta de bitácora de operaciones "
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Identificación de Mensajes del Cliente",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Identificación de Mensajes del Cliente",
+                            "Componente": "Mensaje del cliente"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Relación con Canales",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Recopilación de datos de persona",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Generación de solicitudes de producto",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Generación de solicitudes de servicio",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Envío de información al proceso Back",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Parametrización de información en cada canal",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Despliegue de información en canal",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Generación de solicitudes masivas (Alta de nomina habientes)",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Generación de solicitud de aclaración",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Registro de datos de la llamada con el cliente en Genesys",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Grabación de llamadas con el cliente",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta de histórico de llamadas con el cliente",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Guía dinámica de asesoramiento de aclaración",
+                            "Componente": "NA"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Administración de folios",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Generación de folio",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Cierre de folio",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Monitoreo de cambio de estatus de folios de atención",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Consulta del detalle de folios de aclaraciones",
+                            "Componente": "NA"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Control de accesos",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Generación de usuarios y contraseñas",
+                            "Componente": "Usuario Token Contraseña"
+                        },
+                        {
+                            "Funcionalidad": "Mantenimiento de usuarios y contraseñas",
+                            "Componente": "Usuario Token Contraseña"
+                        },
+                        {
+                            "Funcionalidad": "Administración de usuarios BEM",
+                            "Componente": "Usuario Token Contraseña"
+                        },
+                        {
+                            "Funcionalidad": "Administración de usuarios de banca empresarial",
+                            "Componente": "Usuario Token Contraseña"
+                        },
+                        {
+                            "Funcionalidad": "Generación de perfiles para consola universitaria",
+                            "Componente": "Usuario Token Contraseña"
+                        },
+                        {
+                            "Funcionalidad": "Desbloqueo de usuarios",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Administración de Accesos y Perfiles",
+                            "Componente": "Módulo de Administración de Perfiles y Permisos"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Avalúos",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Solicitud de avalúo",
+                            "Componente": "NA"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Visita Ocular",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Solicitud de Visita Ocular - Ejecutivo",
+                            "Componente": "Visita Ocular"
+                        },
+                        {
+                            "Funcionalidad": "Solicitud de Visita Ocular - Despacho externo",
+                            "Componente": "Visita Ocular"
+                        },
+                        {
+                            "Funcionalidad": "Recepción de Visita Ocular",
+                            "Componente": "Visita Ocular"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Verificación de sociedad y propiedad",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Solicitud de verificación de Propiedad",
+                            "Componente": "Verificación de Sociedad y Propiedad"
+                        },
+                        {
+                            "Funcionalidad": "Solicitud de verificación de Sociedad",
+                            "Componente": "Verificación de Sociedad y Propiedad"
+                        },
+                        {
+                            "Funcionalidad": "Recepción de Verificación Propiedad",
+                            "Componente": "Verificación de Sociedad y Propiedad"
+                        },
+                        {
+                            "Funcionalidad": "Recepción de Verificación de Sociedad",
+                            "Componente": "Verificación de Sociedad y Propiedad"
+                        },
+                        {
+                            "Funcionalidad": "Generación de verificación del proveedor ",
+                            "Componente": "Verificación de Sociedad y Propiedad"
+                        },
+                        {
+                            "Funcionalidad": "Gestión de pago al proveedor de verificaciones",
+                            "Componente": "Verificación de Sociedad y Propiedad"
+                        },
+                        {
+                            "Funcionalidad": "Validación de solicitudes duplicadas",
+                            "Componente": "Verificación de Sociedad y Propiedad"
+                        },
+                        {
+                            "Funcionalidad": "Generación de rechazos de solicitudes",
+                            "Componente": "Verificación de Sociedad y Propiedad"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Dictamen Jurídico",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Solicitud de Dictamen Jurídico",
+                            "Componente": "Dictamen Jurídico"
+                        },
+                        {
+                            "Funcionalidad": "Recepción de Dictamen Jurídico",
+                            "Componente": "Dictamen Jurídico"
+                        },
+                        {
+                            "Funcionalidad": "Generación de rechazos de solicitudes",
+                            "Componente": "Dictamen Jurídico"
+                        },
+                        {
+                            "Funcionalidad": "Validación de solicitudes duplicadas",
+                            "Componente": "Dictamen Jurídico"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Derivados",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Solicitud de análisis de Derivados",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Recepción de Dictamen de Derivados",
+                            "Componente": "NA"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Aclaraciones",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Solicitud de dictamen Técnico Agropecuario",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Solicitud de tarea a Grupo Soporte - Aclaraciones",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Recepción de tarea Grupo Soporte - Aclaraciones",
+                            "Componente": "NA"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Registro de firmas",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Solicitud de registro de firmas",
+                            "Componente": "Registro de Firmas"
+                        },
+                        {
+                            "Funcionalidad": "Recepción de generación de registro de firmas",
+                            "Componente": "Registro de Firmas"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Capacidad": "Autorización",
+            "SubCapacidades": [
+                {
+                    "SubCapacidad": "Autorización de Facultados",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Escalamiento de autorizaciones",
+                            "Componente": "Evaluación por facultados"
+                        },
+                        {
+                            "Funcionalidad": "Autorización masiva",
+                            "Componente": "Evaluación por facultados"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Aceptación de Cliente",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Autorización por firma electrónica (FIEL)",
+                            "Componente": "Autorizador de solicitudes de contratación y de servicios"
+                        },
+                        {
+                            "Funcionalidad": "Autorización por biométricos",
+                            "Componente": "Autorizador de solicitudes de contratación y de servicios"
+                        },
+                        {
+                            "Funcionalidad": "Autorización por token físico",
+                            "Componente": "Autorizador de solicitudes de contratación y de servicios"
+                        },
+                        {
+                            "Funcionalidad": "Autorización por NIP",
+                            "Componente": "Autorizador de solicitudes de contratación y de servicios"
+                        },
+                        {
+                            "Funcionalidad": "Autorización para consulta Buró de Crédito - firma física",
+                            "Componente": "Autorizador de solicitudes de contratación y de servicios"
+                        },
+                        {
+                            "Funcionalidad": "Autorización para consulta Buró de Crédito - voz",
+                            "Componente": "Autorizador de solicitudes de contratación y de servicios"
+                        },
+                        {
+                            "Funcionalidad": "Autorización para consulta Buró de Crédito - cuestionario",
+                            "Componente": "Autorizador de solicitudes de contratación y de servicios"
+                        },
+                        {
+                            "Funcionalidad": "Autorización para enrolamiento de biométricos",
+                            "Componente": "Autorizador de solicitudes de contratación y de servicios"
+                        },
+                        {
+                            "Funcionalidad": "Autorización por dispositivo FIDO (Fast Identity Online)",
+                            "Componente": "Autorizador de solicitudes de contratación y de servicios"
+                        },
+                        {
+                            "Funcionalidad": "Validación de Firma autografa (Cotejo)",
+                            "Componente": "Validación de Firma Autógrafa"
+                        },
+                        {
+                            "Funcionalidad": "Autorización por token celular",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Autorización por Firma FAD",
+                            "Componente": "FAD"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Capacidad": "Procesamiento de Peticiones",
+            "SubCapacidades": [
+                {
+                    "SubCapacidad": "Recepción de petición",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Recepción de la petición - medio Batch",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Recepción de la petición - medio en línea",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Carga masiva de peticiones",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Complementación de datos de la transacción",
+                            "Componente": "NA"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Manejo de excepciones de negocio",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Generación de rechazos operativos",
+                            "Componente": "NA"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Asignación de Solicitud",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Asignación área resolutora",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Asignación a usuario",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Asignación a grupo soporte",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Reasignación de solicitudes",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Calculadora de complejidad",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Identificación de segundo requerimiento",
+                            "Componente": "NA"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Dictaminación",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Generación de pre dictamen",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Generación de dictamen Final",
+                            "Componente": "NA"
+                        },
+                        {
+                            "Funcionalidad": "Dictaminación masiva",
+                            "Componente": "NA"
+                        }
+                    ]
+                },
+                {
+                    "SubCapacidad": "Cierre de Petición",
+                    "FuncionalidadesYComponentes": [
+                        {
+                            "Funcionalidad": "Retroalimentación de estatus al canal de entrada",
+                            "Componente": "NA"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,2074 @@
+[
+  {
+    "Aplicativos": "ACREP (Aprobación de Créditos Paramétricos)",
+    "Estatus": "Activo",
+    "Salud": "0.875",
+    "Peso": 10,
+    "Factor": 8.75
+  },
+  {
+    "Aplicativos": "ALM (Application Lifecycle Management)",
+    "Estatus": "Activo",
+    "Salud": "0.856875",
+    "Peso": 10,
+    "Factor": 8.56875
+  },
+  {
+    "Aplicativos": "ALTAMIRA (Captación)",
+    "Estatus": "Activo",
+    "Salud": "0.83875",
+    "Peso": 90,
+    "Factor": 75.4875
+  },
+  {
+    "Aplicativos": "ALTAMIRA (Clientes-Personas)",
+    "Estatus": "Activo",
+    "Salud": "0.83875",
+    "Peso": 90,
+    "Factor": 75.4875
+  },
+  {
+    "Aplicativos": "ALTAMIRA (Contabilidad)",
+    "Estatus": "Activo",
+    "Salud": "0.83875",
+    "Peso": 90,
+    "Factor": 75.4875
+  },
+  {
+    "Aplicativos": "ALTAMIRA (Medios de Pago)",
+    "Estatus": "Activo",
+    "Salud": "0.83875",
+    "Peso": 90,
+    "Factor": 75.4875
+  },
+  {
+    "Aplicativos": "AMIM",
+    "Estatus": "Activo",
+    "Salud": "0.275",
+    "Peso": 10,
+    "Factor": 2.75
+  },
+  {
+    "Aplicativos": "ARMS (Active Risk Monitoring System)",
+    "Estatus": "Activo",
+    "Salud": "0.195769230769231",
+    "Peso": 10,
+    "Factor": 1.95769230769231
+  },
+  {
+    "Aplicativos": "ASM (Arquitectura de Seguridad Multicanal)",
+    "Estatus": "Activo",
+    "Salud": "0.626041666666667",
+    "Peso": 10,
+    "Factor": 6.26041666666667
+  },
+  {
+    "Aplicativos": "ATM Intelligent Monitor System",
+    "Estatus": "Activo",
+    "Salud": "0.629166666666667",
+    "Peso": 0,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "AbInitio - Fatca Crs",
+    "Estatus": "Activo",
+    "Salud": "0.86",
+    "Peso": 0,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "Acceso24 Portal Privado",
+    "Estatus": "Activo",
+    "Salud": "0.581101694915254",
+    "Peso": 70,
+    "Factor": 40.6771186440678
+  },
+  {
+    "Aplicativos": "Algo Credit Manager (ACM)",
+    "Estatus": "Activo",
+    "Salud": "0.895",
+    "Peso": 10,
+    "Factor": 8.95
+  },
+  {
+    "Aplicativos": "Algorithmics",
+    "Estatus": "Por Decomisar",
+    "Salud": "0.305",
+    "Peso": 10,
+    "Factor": 3.05
+  },
+  {
+    "Aplicativos": "Altamira",
+    "Estatus": "Activo",
+    "Salud": "0.83875",
+    "Peso": 90,
+    "Factor": 75.4875
+  },
+  {
+    "Aplicativos": "Altiris Cajeros Versiones 8.1 ",
+    "Estatus": "Activo",
+    "Salud": "0.6925",
+    "Peso": 0,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "Ambit Focus Liquidity (LCR)",
+    "Estatus": "Activo",
+    "Salud": "0.26",
+    "Peso": 10,
+    "Factor": 2.6
+  },
+  {
+    "Aplicativos": "Aplicaciones Satélite NTF",
+    "Estatus": "Activo",
+    "Salud": "0.511666666666667",
+    "Peso": 10,
+    "Factor": 5.11666666666667
+  },
+  {
+    "Aplicativos": "Apolo Central",
+    "Estatus": "Activo",
+    "Salud": "0.75",
+    "Peso": 30,
+    "Factor": 22.5
+  },
+  {
+    "Aplicativos": "Apolo Distribuido",
+    "Estatus": "Activo",
+    "Salud": "0.52",
+    "Peso": 30,
+    "Factor": 15.6
+  },
+  {
+    "Aplicativos": "App Mayorista Rentabilidad",
+    "Estatus": "Activo",
+    "Salud": "0.872727272727273",
+    "Peso": 10,
+    "Factor": 8.72727272727273
+  },
+  {
+    "Aplicativos": "Archer",
+    "Estatus": "Activo",
+    "Salud": "0.491433333333333",
+    "Peso": 10,
+    "Factor": 4.91433333333333
+  },
+  {
+    "Aplicativos": "Argos ",
+    "Estatus": "Activo",
+    "Salud": "0.765",
+    "Peso": 10,
+    "Factor": 7.65
+  },
+  {
+    "Aplicativos": "Ariba",
+    "Estatus": "Activo",
+    "Salud": "1",
+    "Peso": 10,
+    "Factor": 10
+  },
+  {
+    "Aplicativos": "Arrenda.Net (Arrendadora Sinapsis)",
+    "Estatus": "Activo",
+    "Salud": "0.579423076923077",
+    "Peso": 10,
+    "Factor": 5.79423076923077
+  },
+  {
+    "Aplicativos": "Asesoría en Línea",
+    "Estatus": "Activo",
+    "Salud": "0.406666666666667",
+    "Peso": 10,
+    "Factor": 4.06666666666667
+  },
+  {
+    "Aplicativos": "Assurement Soft",
+    "Estatus": "Activo",
+    "Salud": "0.305",
+    "Peso": 10,
+    "Factor": 3.05
+  },
+  {
+    "Aplicativos": "AudiSoft Web (Administración de Auditoría Interna)",
+    "Estatus": "Activo",
+    "Salud": "0.365",
+    "Peso": 10,
+    "Factor": 3.65
+  },
+  {
+    "Aplicativos": "BASE23",
+    "Estatus": "Activo",
+    "Salud": "0.726666666666667",
+    "Peso": 0,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "BASE24",
+    "Estatus": "Por actualizar aplicación",
+    "Salud": "0.8",
+    "Peso": 80,
+    "Factor": 64
+  },
+  {
+    "Aplicativos": "BAW-CS Alta y Disposición",
+    "Estatus": "Activo",
+    "Salud": "0.820775862068965",
+    "Peso": 10,
+    "Factor": 8.20775862068965
+  },
+  {
+    "Aplicativos": "BAW-CS Crédito Selectivo",
+    "Estatus": "Activo",
+    "Salud": "0.837616279069767",
+    "Peso": 10,
+    "Factor": 8.37616279069767
+  },
+  {
+    "Aplicativos": "BAW-CS Verificaciones",
+    "Estatus": "Activo",
+    "Salud": "0.820775862068965",
+    "Peso": 10,
+    "Factor": 8.20775862068965
+  },
+  {
+    "Aplicativos": "BAW-FPS Dictámenes Jurídicos",
+    "Estatus": "Activo",
+    "Salud": "0.36",
+    "Peso": 0,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "BEM Móvil",
+    "Estatus": "Activo",
+    "Salud": "0.791",
+    "Peso": 50,
+    "Factor": 39.55
+  },
+  {
+    "Aplicativos": "BI (Buró Interno)",
+    "Estatus": "Activo",
+    "Salud": "0.074",
+    "Peso": 10,
+    "Factor": 0.74
+  },
+  {
+    "Aplicativos": "BIT",
+    "Estatus": "Activo",
+    "Salud": "0.75",
+    "Peso": 10,
+    "Factor": 7.5
+  },
+  {
+    "Aplicativos": "Banca Electrónica Consolidada",
+    "Estatus": "Activo",
+    "Salud": "0.057027027027027",
+    "Peso": 70,
+    "Factor": 3.99189189189189
+  },
+  {
+    "Aplicativos": "Banca Electrónica PyME (BEP)",
+    "Estatus": "Activo",
+    "Salud": "0.501759259259259",
+    "Peso": 70,
+    "Factor": 35.1231481481481
+  },
+  {
+    "Aplicativos": "Banca de Consumo",
+    "Estatus": "Actualizando información",
+    "Salud": "0",
+    "Peso": 10,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "Banktrade",
+    "Estatus": "Activo",
+    "Salud": "0.6925",
+    "Peso": 10,
+    "Factor": 6.925
+  },
+  {
+    "Aplicativos": "Banorte Móvil",
+    "Estatus": "Activo",
+    "Salud": "0.884959016393442",
+    "Peso": 10,
+    "Factor": 8.84959016393442
+  },
+  {
+    "Aplicativos": "Banorte Móvil Lite",
+    "Estatus": "Activo",
+    "Salud": "0.7525",
+    "Peso": 80,
+    "Factor": 60.2
+  },
+  {
+    "Aplicativos": "Banorte Virtual",
+    "Estatus": "Revisando estatus",
+    "Salud": "0.4825",
+    "Peso": 40,
+    "Factor": 19.3
+  },
+  {
+    "Aplicativos": "BeTrading",
+    "Estatus": "Activo",
+    "Salud": "0.7",
+    "Peso": 10,
+    "Factor": 7
+  },
+  {
+    "Aplicativos": "Bloomberg",
+    "Estatus": "Actualizando información",
+    "Salud": "0",
+    "Peso": 10,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "Bloomberg Trading FX",
+    "Estatus": "Activo",
+    "Salud": "1",
+    "Peso": 10,
+    "Factor": 10
+  },
+  {
+    "Aplicativos": "Buró Nacional de Crédito",
+    "Estatus": "Activo",
+    "Salud": "0.925",
+    "Peso": 10,
+    "Factor": 9.25
+  },
+  {
+    "Aplicativos": "CBL (Cambios Banorte en Linea)",
+    "Estatus": "Activo",
+    "Salud": "0.885833333333333",
+    "Peso": 10,
+    "Factor": 8.85833333333333
+  },
+  {
+    "Aplicativos": "CCPulse",
+    "Estatus": "Activo",
+    "Salud": "0.065",
+    "Peso": 0,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "CCS (Conversor Contable SAC)",
+    "Estatus": "Activo",
+    "Salud": "1",
+    "Peso": 10,
+    "Factor": 10
+  },
+  {
+    "Aplicativos": "CMS (Card Management System)",
+    "Estatus": "Activo",
+    "Salud": "0.58875",
+    "Peso": 60,
+    "Factor": 35.325
+  },
+  {
+    "Aplicativos": "CREA CONSUMO",
+    "Estatus": "Activo",
+    "Salud": "0.75",
+    "Peso": 0,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "CREA HIPOTECARIO",
+    "Estatus": "Activo",
+    "Salud": "0.9525",
+    "Peso": 0,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "CRS",
+    "Estatus": "Activo",
+    "Salud": "0.26",
+    "Peso": 10,
+    "Factor": 2.6
+  },
+  {
+    "Aplicativos": "Calculo de Variables Internas",
+    "Estatus": "Activo",
+    "Salud": "0.61",
+    "Peso": 10,
+    "Factor": 6.1
+  },
+  {
+    "Aplicativos": "Calificación Interna de Riesgos de Crédito y Cartera",
+    "Estatus": "Activo",
+    "Salud": "0.629",
+    "Peso": 10,
+    "Factor": 6.29
+  },
+  {
+    "Aplicativos": "Campañas Promocionales de Mercadotecnia",
+    "Estatus": "Activo",
+    "Salud": "0.75",
+    "Peso": 10,
+    "Factor": 7.5
+  },
+  {
+    "Aplicativos": "Campañas SAS – SAP HANA",
+    "Estatus": "Actualizando información",
+    "Salud": "0.3625",
+    "Peso": 0,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "Cantor",
+    "Estatus": "Activo",
+    "Salud": "0.525",
+    "Peso": 10,
+    "Factor": 5.25
+  },
+  {
+    "Aplicativos": "Cedulas",
+    "Estatus": "Activo",
+    "Salud": "0.25",
+    "Peso": 10,
+    "Factor": 2.5
+  },
+  {
+    "Aplicativos": "Charles River (Charles River Investment Management System)",
+    "Estatus": "Activo",
+    "Salud": "0.50625",
+    "Peso": 60,
+    "Factor": 30.375
+  },
+  {
+    "Aplicativos": "Citrix",
+    "Estatus": "Activo",
+    "Salud": "0.45875",
+    "Peso": 10,
+    "Factor": 4.5875
+  },
+  {
+    "Aplicativos": "Cobranza Móvil",
+    "Estatus": "Activo",
+    "Salud": "0.3775",
+    "Peso": 10,
+    "Factor": 3.775
+  },
+  {
+    "Aplicativos": "Conexión Banorte 3.0",
+    "Estatus": "Por actualizar aplicación",
+    "Salud": "0.68375",
+    "Peso": 70,
+    "Factor": 47.8625
+  },
+  {
+    "Aplicativos": "Conexión Banorte 3.1",
+    "Estatus": "Activo",
+    "Salud": "0.381875",
+    "Peso": 0,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "Contratación en linea",
+    "Estatus": "Por Decomisar",
+    "Salud": "0",
+    "Peso": 10,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "Contratos",
+    "Estatus": "Activo",
+    "Salud": "0.08",
+    "Peso": 10,
+    "Factor": 0.8
+  },
+  {
+    "Aplicativos": "Control de Envíos a Custodia de Documentos (Intranet)",
+    "Estatus": "Activo",
+    "Salud": "0",
+    "Peso": 10,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "Control-M",
+    "Estatus": "Activo",
+    "Salud": "0.895375",
+    "Peso": 10,
+    "Factor": 8.95375
+  },
+  {
+    "Aplicativos": "Convalidador Murex",
+    "Estatus": "Inactivo",
+    "Salud": "0",
+    "Peso": 0,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "Correo Electronico EXCHANGE",
+    "Estatus": "Activo",
+    "Salud": "0.8074",
+    "Peso": 10,
+    "Factor": 8.074
+  },
+  {
+    "Aplicativos": "Cortes Altamira - Murex",
+    "Estatus": "Activo",
+    "Salud": "0.51625",
+    "Peso": 10,
+    "Factor": 5.1625
+  },
+  {
+    "Aplicativos": "Cotizador de Inversiones a Plazo Fijo",
+    "Estatus": "Activo",
+    "Salud": "0.1925",
+    "Peso": 10,
+    "Factor": 1.925
+  },
+  {
+    "Aplicativos": "Criterios de Aceptación de Riesgo",
+    "Estatus": "Activo",
+    "Salud": "0.230227272727273",
+    "Peso": 10,
+    "Factor": 2.30227272727273
+  },
+  {
+    "Aplicativos": "Custodia de documentos",
+    "Estatus": "Actualizando información",
+    "Salud": "0.0875",
+    "Peso": 10,
+    "Factor": 0.875
+  },
+  {
+    "Aplicativos": "Cyber Financial",
+    "Estatus": "Activo",
+    "Salud": "0.3525",
+    "Peso": 0,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "Cédulas de Auto evaluación",
+    "Estatus": "Activo",
+    "Salud": "0.2075",
+    "Peso": 10,
+    "Factor": 2.075
+  },
+  {
+    "Aplicativos": "DCS (Debit Card System)",
+    "Estatus": "Activo",
+    "Salud": "0.5675",
+    "Peso": 60,
+    "Factor": 34.05
+  },
+  {
+    "Aplicativos": "DIANA",
+    "Estatus": "Por Decomisar",
+    "Salud": "0.1915",
+    "Peso": 10,
+    "Factor": 1.915
+  },
+  {
+    "Aplicativos": "DWH (Data Warehouse)",
+    "Estatus": "Activo",
+    "Salud": "0.798333333333333",
+    "Peso": 10,
+    "Factor": 7.98333333333333
+  },
+  {
+    "Aplicativos": "Deal Tracker Server",
+    "Estatus": "Activo",
+    "Salud": "0.71375",
+    "Peso": 10,
+    "Factor": 7.1375
+  },
+  {
+    "Aplicativos": "Dictamenes Juridicos",
+    "Estatus": "Activo",
+    "Salud": "0.75",
+    "Peso": 0,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "Digitalización de Expedientes Banco",
+    "Estatus": "En investigación",
+    "Salud": "0",
+    "Peso": 10,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "Digitalización de Firmas",
+    "Estatus": "Activo",
+    "Salud": "0.698333333333333",
+    "Peso": 10,
+    "Factor": 6.98333333333333
+  },
+  {
+    "Aplicativos": "E-Check",
+    "Estatus": "Inactivo",
+    "Salud": "0",
+    "Peso": 0,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "EDW  (Enterprise Data Warehouse)",
+    "Estatus": "Activo",
+    "Salud": "0.888888888888889",
+    "Peso": 10,
+    "Factor": 8.88888888888889
+  },
+  {
+    "Aplicativos": "Eikon - REFINITV",
+    "Estatus": "Activo",
+    "Salud": "0.86",
+    "Peso": 10,
+    "Factor": 8.6
+  },
+  {
+    "Aplicativos": "Email y Chat (Servicios de email y chat)",
+    "Estatus": "Activo",
+    "Salud": "0.253823529411765",
+    "Peso": 10,
+    "Factor": 2.53823529411765
+  },
+  {
+    "Aplicativos": "Embossing",
+    "Estatus": "Activo",
+    "Salud": "0.275",
+    "Peso": 10,
+    "Factor": 2.75
+  },
+  {
+    "Aplicativos": "Enlace Financiero Dólares - H2H",
+    "Estatus": "Activo",
+    "Salud": "0.275",
+    "Peso": 30,
+    "Factor": 8.25
+  },
+  {
+    "Aplicativos": "Enlace Financiero Indeval",
+    "Estatus": "Activo",
+    "Salud": "0.913846153846154",
+    "Peso": 10,
+    "Factor": 9.13846153846154
+  },
+  {
+    "Aplicativos": "Enlace Financiero SPEI",
+    "Estatus": "Activo",
+    "Salud": "0.786637931034483",
+    "Peso": 90,
+    "Factor": 70.7974137931035
+  },
+  {
+    "Aplicativos": "Enlace a Terceros",
+    "Estatus": "Activo",
+    "Salud": "0.605",
+    "Peso": 10,
+    "Factor": 6.05
+  },
+  {
+    "Aplicativos": "Expected Credit Loss  /  Calculadora de Pérdidas Esperadas y Capital Económico (ECL)",
+    "Estatus": "Activo",
+    "Salud": "0.61",
+    "Peso": 0,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "Expediente Digital (Alianza Digital)",
+    "Estatus": "Activo",
+    "Salud": "0.31",
+    "Peso": 70,
+    "Factor": 21.7
+  },
+  {
+    "Aplicativos": "Experian (Credit Scoring)",
+    "Estatus": "Activo",
+    "Salud": "0.3485",
+    "Peso": 10,
+    "Factor": 3.485
+  },
+  {
+    "Aplicativos": "Fiduciario TTP",
+    "Estatus": "Activo",
+    "Salud": "0.275",
+    "Peso": 20,
+    "Factor": 5.5
+  },
+  {
+    "Aplicativos": "Firmas",
+    "Estatus": "Activo",
+    "Salud": "0.275",
+    "Peso": 10,
+    "Factor": 2.75
+  },
+  {
+    "Aplicativos": "Formalización de Tarjetas de Credito",
+    "Estatus": "Activo",
+    "Salud": "0.275",
+    "Peso": 10,
+    "Factor": 2.75
+  },
+  {
+    "Aplicativos": "Fortimax",
+    "Estatus": "Activo",
+    "Salud": "0.36",
+    "Peso": 10,
+    "Factor": 3.6
+  },
+  {
+    "Aplicativos": "Frontera",
+    "Estatus": "Activo",
+    "Salud": "1",
+    "Peso": 10,
+    "Factor": 10
+  },
+  {
+    "Aplicativos": "GESCO (Gestión Comercial)",
+    "Estatus": "Activo",
+    "Salud": "0.6225",
+    "Peso": 10,
+    "Factor": 6.225
+  },
+  {
+    "Aplicativos": "GL Trade",
+    "Estatus": "Activo",
+    "Salud": "0.26",
+    "Peso": 0,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "GME (Genesys Mobile Engagement)",
+    "Estatus": "Activo",
+    "Salud": "0.26",
+    "Peso": 10,
+    "Factor": 2.6
+  },
+  {
+    "Aplicativos": "GSE (Genesys Social Engagement)",
+    "Estatus": "Activo",
+    "Salud": "0.615",
+    "Peso": 10,
+    "Factor": 6.15
+  },
+  {
+    "Aplicativos": "Garantías PYME (Administración de Garantías PyME)",
+    "Estatus": "Activo",
+    "Salud": "1",
+    "Peso": 10,
+    "Factor": 10
+  },
+  {
+    "Aplicativos": "Gastos",
+    "Estatus": "Activo",
+    "Salud": "0",
+    "Peso": 10,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "Genesys",
+    "Estatus": "Activo",
+    "Salud": "0.501430041152263",
+    "Peso": 10,
+    "Factor": 5.01430041152263
+  },
+  {
+    "Aplicativos": "Genesys Administrator",
+    "Estatus": "Activo",
+    "Salud": "0.5",
+    "Peso": 10,
+    "Factor": 5
+  },
+  {
+    "Aplicativos": "Gestor Contable",
+    "Estatus": "En investigación",
+    "Salud": "0",
+    "Peso": 10,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "Guarda Valores (SAD)",
+    "Estatus": "Por Decomisar",
+    "Salud": "0.700833333333333",
+    "Peso": 10,
+    "Factor": 7.00833333333333
+  },
+  {
+    "Aplicativos": "HIR",
+    "Estatus": "Activo",
+    "Salud": "0",
+    "Peso": 10,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "Hunab",
+    "Estatus": "Activo",
+    "Salud": "0.75",
+    "Peso": 10,
+    "Factor": 7.5
+  },
+  {
+    "Aplicativos": "ICAM",
+    "Estatus": "Activo",
+    "Salud": "0.4275",
+    "Peso": 10,
+    "Factor": 4.275
+  },
+  {
+    "Aplicativos": "IDS (Interconexión de Sucursales)",
+    "Estatus": "Activo",
+    "Salud": "0.5325",
+    "Peso": 10,
+    "Factor": 5.325
+  },
+  {
+    "Aplicativos": "IFAC",
+    "Estatus": "Activo",
+    "Salud": "0.75",
+    "Peso": 10,
+    "Factor": 7.5
+  },
+  {
+    "Aplicativos": "IPC Informática Power Center",
+    "Estatus": "Activo",
+    "Salud": "0.75",
+    "Peso": 20,
+    "Factor": 15
+  },
+  {
+    "Aplicativos": "IVR GVP (Genesis Voice Portal)*",
+    "Estatus": "Activo",
+    "Salud": "0.75",
+    "Peso": 90,
+    "Factor": 67.5
+  },
+  {
+    "Aplicativos": "IVR GVP (Genesys Voice Portal)",
+    "Estatus": "Activo",
+    "Salud": "0.555447368421053",
+    "Peso": 0,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "Image Check",
+    "Estatus": "En investigación",
+    "Salud": "0",
+    "Peso": 10,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "Infosel Financiero",
+    "Estatus": "Activo",
+    "Salud": "0.9275",
+    "Peso": 30,
+    "Factor": 27.825
+  },
+  {
+    "Aplicativos": "Instrucción Notarial",
+    "Estatus": "Por Decomisar",
+    "Salud": "0.75",
+    "Peso": 10,
+    "Factor": 7.5
+  },
+  {
+    "Aplicativos": "Integrador Contable AB Initio",
+    "Estatus": "Activo",
+    "Salud": "0.625",
+    "Peso": 10,
+    "Factor": 6.25
+  },
+  {
+    "Aplicativos": "Interaction Server",
+    "Estatus": "En investigación",
+    "Salud": "0",
+    "Peso": 10,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "Interactive Analytics",
+    "Estatus": "Activo",
+    "Salud": "0.75",
+    "Peso": 10,
+    "Factor": 7.5
+  },
+  {
+    "Aplicativos": "Intranet Avalúos",
+    "Estatus": "Activo",
+    "Salud": "0.53875",
+    "Peso": 10,
+    "Factor": 5.3875
+  },
+  {
+    "Aplicativos": "Intranet Banca Patrimonial (SCAT)",
+    "Estatus": "Activo",
+    "Salud": "0.7725",
+    "Peso": 0,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "Intranet Banca de Fomento",
+    "Estatus": "Activo",
+    "Salud": "0.185833333333333",
+    "Peso": 10,
+    "Factor": 1.85833333333333
+  },
+  {
+    "Aplicativos": "Intranet Contratos BEC",
+    "Estatus": "Activo",
+    "Salud": "0.0996527777777777",
+    "Peso": 10,
+    "Factor": 0.996527777777777
+  },
+  {
+    "Aplicativos": "Intranet Contratos BEM",
+    "Estatus": "Activo",
+    "Salud": "0.349652777777778",
+    "Peso": 10,
+    "Factor": 3.49652777777778
+  },
+  {
+    "Aplicativos": "Intranet Contratos BXI",
+    "Estatus": "Activo",
+    "Salud": "0.364166666666667",
+    "Peso": 10,
+    "Factor": 3.64166666666667
+  },
+  {
+    "Aplicativos": "Intranet Factor",
+    "Estatus": "Activo",
+    "Salud": "0.6325",
+    "Peso": 10,
+    "Factor": 6.325
+  },
+  {
+    "Aplicativos": "Intranet Fiscal",
+    "Estatus": "Activo",
+    "Salud": "0.0657142857142857",
+    "Peso": 10,
+    "Factor": 0.657142857142857
+  },
+  {
+    "Aplicativos": "Intranet Sucursales (SCAT)",
+    "Estatus": "Activo",
+    "Salud": "0.025",
+    "Peso": 10,
+    "Factor": 0.25
+  },
+  {
+    "Aplicativos": "Intranet de Banortel",
+    "Estatus": "Activo",
+    "Salud": "0.373333333333333",
+    "Peso": 10,
+    "Factor": 3.73333333333333
+  },
+  {
+    "Aplicativos": "Intranet de Campañas",
+    "Estatus": "Por Decomisar",
+    "Salud": "0.51",
+    "Peso": 10,
+    "Factor": 5.1
+  },
+  {
+    "Aplicativos": "Intranet de Contratos Sucursales",
+    "Estatus": "Activo",
+    "Salud": "0.0075",
+    "Peso": 10,
+    "Factor": 0.075
+  },
+  {
+    "Aplicativos": "Intranet de Fincasa",
+    "Estatus": "Activo",
+    "Salud": "1",
+    "Peso": 10,
+    "Factor": 10
+  },
+  {
+    "Aplicativos": "Intranet de Recuperación de Activos",
+    "Estatus": "Activo",
+    "Salud": "0.515",
+    "Peso": 10,
+    "Factor": 5.15
+  },
+  {
+    "Aplicativos": "Investor",
+    "Estatus": "Activo",
+    "Salud": "0.77125",
+    "Peso": 10,
+    "Factor": 7.7125
+  },
+  {
+    "Aplicativos": "Ipad",
+    "Estatus": "Activo",
+    "Salud": "0.4275",
+    "Peso": 10,
+    "Factor": 4.275
+  },
+  {
+    "Aplicativos": "JSCAN (Digitalizador Central)",
+    "Estatus": "Activo",
+    "Salud": "0.266428571428571",
+    "Peso": 10,
+    "Factor": 2.66428571428571
+  },
+  {
+    "Aplicativos": "Key Monitor",
+    "Estatus": "Activo",
+    "Salud": "0.6455",
+    "Peso": 10,
+    "Factor": 6.455
+  },
+  {
+    "Aplicativos": "LOM (Lumina Order Management)",
+    "Estatus": "Activo",
+    "Salud": "0.5845",
+    "Peso": 60,
+    "Factor": 35.07
+  },
+  {
+    "Aplicativos": "Latinia",
+    "Estatus": "Activo",
+    "Salud": "0.757368421052632",
+    "Peso": 70,
+    "Factor": 53.0157894736842
+  },
+  {
+    "Aplicativos": "Legato Networker",
+    "Estatus": "Activo",
+    "Salud": "0.9666875",
+    "Peso": 0,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "Listas Negras",
+    "Estatus": "En investigación",
+    "Salud": "0.69",
+    "Peso": 10,
+    "Factor": 6.9
+  },
+  {
+    "Aplicativos": "Lumina FIX Engine",
+    "Estatus": "Activo",
+    "Salud": "0.825",
+    "Peso": 0,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "Lumina Order Routing",
+    "Estatus": "Activo",
+    "Salud": "0.55875",
+    "Peso": 60,
+    "Factor": 33.525
+  },
+  {
+    "Aplicativos": "MCA Plataforma Multicanal",
+    "Estatus": "Activo",
+    "Salud": "0.605787037037037",
+    "Peso": 90,
+    "Factor": 54.5208333333333
+  },
+  {
+    "Aplicativos": "MDM (Master Data Management)",
+    "Estatus": "Activo",
+    "Salud": "0.829375",
+    "Peso": 70,
+    "Factor": 58.05625
+  },
+  {
+    "Aplicativos": "MEC (Mexican Exchange Connector)",
+    "Estatus": "Activo",
+    "Salud": "0.944",
+    "Peso": 10,
+    "Factor": 9.44
+  },
+  {
+    "Aplicativos": "MIF (Modulo de Informacion Financiera)",
+    "Estatus": "Por Decomisar",
+    "Salud": "0.425",
+    "Peso": 10,
+    "Factor": 4.25
+  },
+  {
+    "Aplicativos": "MIR (Modelo de Información de Riesgos)",
+    "Estatus": "Activo",
+    "Salud": "0.5875",
+    "Peso": 10,
+    "Factor": 5.875
+  },
+  {
+    "Aplicativos": "MODCONBAN",
+    "Estatus": "Activo",
+    "Salud": "0.5",
+    "Peso": 10,
+    "Factor": 5
+  },
+  {
+    "Aplicativos": "MX Punto III",
+    "Estatus": "Activo",
+    "Salud": "0.881290322580645",
+    "Peso": 60,
+    "Factor": 52.8774193548387
+  },
+  {
+    "Aplicativos": "Manejador de Aplicaciones",
+    "Estatus": "Activo",
+    "Salud": "0.1",
+    "Peso": 10,
+    "Factor": 1
+  },
+  {
+    "Aplicativos": "Marcador Predictivo (Outbund Contact Server) (OCS SIP)",
+    "Estatus": "Activo",
+    "Salud": "0.831071428571428",
+    "Peso": 10,
+    "Factor": 8.31071428571429
+  },
+  {
+    "Aplicativos": "Mas Control",
+    "Estatus": "Por Decomisar",
+    "Salud": "0.62",
+    "Peso": 10,
+    "Factor": 6.2
+  },
+  {
+    "Aplicativos": "Master de Líneas",
+    "Estatus": "Activo",
+    "Salud": "0.6275",
+    "Peso": 10,
+    "Factor": 6.275
+  },
+  {
+    "Aplicativos": "Match Operativo",
+    "Estatus": "Activo",
+    "Salud": "0.585",
+    "Peso": 10,
+    "Factor": 5.85
+  },
+  {
+    "Aplicativos": "Maximo (IBM Maximo)",
+    "Estatus": "Activo",
+    "Salud": "0.555",
+    "Peso": 10,
+    "Factor": 5.55
+  },
+  {
+    "Aplicativos": "Medallia",
+    "Estatus": "Activo",
+    "Salud": "1",
+    "Peso": 10,
+    "Factor": 10
+  },
+  {
+    "Aplicativos": "Mega Hopex",
+    "Estatus": "Activo",
+    "Salud": "0.358933333333333",
+    "Peso": 10,
+    "Factor": 3.58933333333333
+  },
+  {
+    "Aplicativos": "Mercados Objetivo",
+    "Estatus": "Activo",
+    "Salud": "0.228928571428571",
+    "Peso": 10,
+    "Factor": 2.28928571428571
+  },
+  {
+    "Aplicativos": "Mercury",
+    "Estatus": "Activo",
+    "Salud": "0.425",
+    "Peso": 10,
+    "Factor": 4.25
+  },
+  {
+    "Aplicativos": "MetaData Hub (Concentrador de Metadatos)",
+    "Estatus": "Activo",
+    "Salud": "0.3575",
+    "Peso": 10,
+    "Factor": 3.575
+  },
+  {
+    "Aplicativos": "Microsoft Intune MDM (Cloud)",
+    "Estatus": "Activo",
+    "Salud": "1",
+    "Peso": 0,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "Modelos Cognodata (Atrittion)",
+    "Estatus": "Activo",
+    "Salud": "0.5",
+    "Peso": 10,
+    "Factor": 5
+  },
+  {
+    "Aplicativos": "Modelos Cognodata (Estimador de Ingresos)",
+    "Estatus": "Activo",
+    "Salud": "0.56",
+    "Peso": 10,
+    "Factor": 5.6
+  },
+  {
+    "Aplicativos": "Modelos Cognodata (Segmentación)",
+    "Estatus": "Activo",
+    "Salud": "0.96",
+    "Peso": 10,
+    "Factor": 9.6
+  },
+  {
+    "Aplicativos": "Moebius",
+    "Estatus": "Activo",
+    "Salud": "0.4425",
+    "Peso": 10,
+    "Factor": 4.425
+  },
+  {
+    "Aplicativos": "Multivendor Atm´s - Aptra Vision",
+    "Estatus": "Activo",
+    "Salud": "0.7825",
+    "Peso": 10,
+    "Factor": 7.825
+  },
+  {
+    "Aplicativos": "Móvil Preferente",
+    "Estatus": "Activo",
+    "Salud": "0.622727272727273",
+    "Peso": 0,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "NBA/NBO (Next Best Action / Next Best Offer)",
+    "Estatus": "Activo",
+    "Salud": "0.891323529411765",
+    "Peso": 40,
+    "Factor": 35.6529411764706
+  },
+  {
+    "Aplicativos": "NICE",
+    "Estatus": "Activo",
+    "Salud": "0.542857142857143",
+    "Peso": 10,
+    "Factor": 5.42857142857143
+  },
+  {
+    "Aplicativos": "NTF (Nuevo Terminal Financiero)",
+    "Estatus": "Activo",
+    "Salud": "0.217045454545455",
+    "Peso": 90,
+    "Factor": 19.5340909090909
+  },
+  {
+    "Aplicativos": "Nueva Banca Empresarial (NBEM)",
+    "Estatus": "Activo",
+    "Salud": "0.56",
+    "Peso": 60,
+    "Factor": 33.6
+  },
+  {
+    "Aplicativos": "Nueva Banca Empresarial Central (NBEM Central)",
+    "Estatus": "Activo",
+    "Salud": "0.598257575757576",
+    "Peso": 60,
+    "Factor": 35.8954545454545
+  },
+  {
+    "Aplicativos": "Nueva Banca por Internet",
+    "Estatus": "Activo",
+    "Salud": "0.30328947368421",
+    "Peso": 70,
+    "Factor": 21.2302631578947
+  },
+  {
+    "Aplicativos": "OAM (Oracle Access Management)",
+    "Estatus": "Activo",
+    "Salud": "0.818636363636364",
+    "Peso": 10,
+    "Factor": 8.18636363636364
+  },
+  {
+    "Aplicativos": "Office 365",
+    "Estatus": "Activo",
+    "Salud": "0.903333333333333",
+    "Peso": 10,
+    "Factor": 9.03333333333333
+  },
+  {
+    "Aplicativos": "Open Workplace",
+    "Estatus": "Activo",
+    "Salud": "0.75",
+    "Peso": 0,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "Origina",
+    "Estatus": "Activo",
+    "Salud": "0.835251572327044",
+    "Peso": 10,
+    "Factor": 8.35251572327044
+  },
+  {
+    "Aplicativos": "PAR (Plataforma Analítica de Riesgos)",
+    "Estatus": "Activo",
+    "Salud": "0.8475",
+    "Peso": 60,
+    "Factor": 50.85
+  },
+  {
+    "Aplicativos": "PFF - Taller de Productos y Tarifas (Product Fee & Factory)",
+    "Estatus": "Activo",
+    "Salud": "0.6325",
+    "Peso": 10,
+    "Factor": 6.325
+  },
+  {
+    "Aplicativos": "PIERI (Publicación de Información para la Evaluación de Riesgo Industria)*",
+    "Estatus": "Inactivo",
+    "Salud": "0.75",
+    "Peso": 10,
+    "Factor": 7.5
+  },
+  {
+    "Aplicativos": "PPM (Project Portfolio Management)",
+    "Estatus": "Activo",
+    "Salud": "0.285",
+    "Peso": 10,
+    "Factor": 2.85
+  },
+  {
+    "Aplicativos": "PSI (Portal de Servicios Internos)",
+    "Estatus": "Activo",
+    "Salud": "0.525",
+    "Peso": 10,
+    "Factor": 5.25
+  },
+  {
+    "Aplicativos": "Payworks2",
+    "Estatus": "Activo",
+    "Salud": "0.861948529411765",
+    "Peso": 80,
+    "Factor": 68.9558823529412
+  },
+  {
+    "Aplicativos": "Peper",
+    "Estatus": "Activo",
+    "Salud": "0.731071428571428",
+    "Peso": 10,
+    "Factor": 7.31071428571429
+  },
+  {
+    "Aplicativos": "Perfil Inversionista",
+    "Estatus": "Activo",
+    "Salud": "0.2075",
+    "Peso": 10,
+    "Factor": 2.075
+  },
+  {
+    "Aplicativos": "Perfil del Cliente Casa de Bolsa (DataStage)",
+    "Estatus": "Activo",
+    "Salud": "0.75",
+    "Peso": 10,
+    "Factor": 7.5
+  },
+  {
+    "Aplicativos": "Plug in Underwriting",
+    "Estatus": "Activo",
+    "Salud": "0.1925",
+    "Peso": 10,
+    "Factor": 1.925
+  },
+  {
+    "Aplicativos": "Portal Ejecutivo",
+    "Estatus": "Activo",
+    "Salud": "0.872727272727273",
+    "Peso": 10,
+    "Factor": 8.72727272727273
+  },
+  {
+    "Aplicativos": "Portal Inmuebles Banorte",
+    "Estatus": "Activo",
+    "Salud": "0.8475",
+    "Peso": 10,
+    "Factor": 8.475
+  },
+  {
+    "Aplicativos": "Portal Institucional",
+    "Estatus": "Activo",
+    "Salud": "0.519615384615385",
+    "Peso": 10,
+    "Factor": 5.19615384615385
+  },
+  {
+    "Aplicativos": "Portal Público",
+    "Estatus": "Activo",
+    "Salud": "0.225",
+    "Peso": 70,
+    "Factor": 15.75
+  },
+  {
+    "Aplicativos": "Portal Web Almacenadora",
+    "Estatus": "Activo",
+    "Salud": "0.562",
+    "Peso": 10,
+    "Factor": 5.62
+  },
+  {
+    "Aplicativos": "Portal de AMB (Asistencia Médica Banorte)",
+    "Estatus": "Activo",
+    "Salud": "0.61",
+    "Peso": 10,
+    "Factor": 6.1
+  },
+  {
+    "Aplicativos": "Portal de CAS (Portal de Códigos de Actividad Sectorial)",
+    "Estatus": "Activo",
+    "Salud": "0.25",
+    "Peso": 10,
+    "Factor": 2.5
+  },
+  {
+    "Aplicativos": "Portal de Gestión II",
+    "Estatus": "Activo",
+    "Salud": "0",
+    "Peso": 10,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "Portal de Gestión III",
+    "Estatus": "Activo",
+    "Salud": "0.765",
+    "Peso": 10,
+    "Factor": 7.65
+  },
+  {
+    "Aplicativos": "Portal de Inversionistas Web",
+    "Estatus": "Activo",
+    "Salud": "0.855",
+    "Peso": 10,
+    "Factor": 8.55
+  },
+  {
+    "Aplicativos": "Portal de Multicobros Banorte Adquirente",
+    "Estatus": "Activo",
+    "Salud": "0.86",
+    "Peso": 10,
+    "Factor": 8.6
+  },
+  {
+    "Aplicativos": "Portal de Normatividad",
+    "Estatus": "Activo",
+    "Salud": "0.03",
+    "Peso": 10,
+    "Factor": 0.3
+  },
+  {
+    "Aplicativos": "Portal de Operaciones (IntraDGO)",
+    "Estatus": "Activo",
+    "Salud": "0.1845",
+    "Peso": 10,
+    "Factor": 1.845
+  },
+  {
+    "Aplicativos": "Proactive Risk Manager (PRM)",
+    "Estatus": "Activo",
+    "Salud": "0.872380952380952",
+    "Peso": 60,
+    "Factor": 52.3428571428571
+  },
+  {
+    "Aplicativos": "Psycowin",
+    "Estatus": "Por Decomisar",
+    "Salud": "0.265",
+    "Peso": 10,
+    "Factor": 2.65
+  },
+  {
+    "Aplicativos": "Qlik View",
+    "Estatus": "Activo",
+    "Salud": "0.887905405405405",
+    "Peso": 10,
+    "Factor": 8.87905405405405
+  },
+  {
+    "Aplicativos": "RECS (Repositorio del Crédito Selectivo)",
+    "Estatus": "Activo",
+    "Salud": "0.675",
+    "Peso": 10,
+    "Factor": 6.75
+  },
+  {
+    "Aplicativos": "REUS",
+    "Estatus": "Activo",
+    "Salud": "0.478571428571429",
+    "Peso": 10,
+    "Factor": 4.78571428571429
+  },
+  {
+    "Aplicativos": "RRC (Rational Requirement Composer)",
+    "Estatus": "Activo",
+    "Salud": "0.175",
+    "Peso": 10,
+    "Factor": 1.75
+  },
+  {
+    "Aplicativos": "RSA- Autenticación Adaptativa",
+    "Estatus": "Activo",
+    "Salud": "0.83",
+    "Peso": 10,
+    "Factor": 8.3
+  },
+  {
+    "Aplicativos": "RTC (Rational Team Concert)",
+    "Estatus": "Activo",
+    "Salud": "0.4225",
+    "Peso": 10,
+    "Factor": 4.225
+  },
+  {
+    "Aplicativos": "Remedy ",
+    "Estatus": "Activo",
+    "Salud": "0.5962",
+    "Peso": 10,
+    "Factor": 5.962
+  },
+  {
+    "Aplicativos": "Rentabilidad Web",
+    "Estatus": "Activo",
+    "Salud": "0.8185",
+    "Peso": 10,
+    "Factor": 8.185
+  },
+  {
+    "Aplicativos": "RepoFS (Repository File Service)",
+    "Estatus": "Activo",
+    "Salud": "0.635833333333333",
+    "Peso": 10,
+    "Factor": 6.35833333333333
+  },
+  {
+    "Aplicativos": "Retención ReActivo",
+    "Estatus": "Activo",
+    "Salud": "0.0156",
+    "Peso": 10,
+    "Factor": 0.156
+  },
+  {
+    "Aplicativos": "Risk Watch",
+    "Estatus": "Activo",
+    "Salud": "0.555",
+    "Peso": 10,
+    "Factor": 5.55
+  },
+  {
+    "Aplicativos": "Robots Operaciones",
+    "Estatus": "Activo",
+    "Salud": "0.56",
+    "Peso": 10,
+    "Factor": 5.6
+  },
+  {
+    "Aplicativos": "SACDWH (Engine)",
+    "Estatus": "Activo",
+    "Salud": "0.715",
+    "Peso": 10,
+    "Factor": 7.15
+  },
+  {
+    "Aplicativos": "SACS (Sistema de Administración de Crédito Selectivo)",
+    "Estatus": "Activo",
+    "Salud": "0.825",
+    "Peso": 10,
+    "Factor": 8.25
+  },
+  {
+    "Aplicativos": "SAD WEB (Sistema de Administración de Documentos Web)",
+    "Estatus": "Por Decomisar",
+    "Salud": "0.925",
+    "Peso": 10,
+    "Factor": 9.25
+  },
+  {
+    "Aplicativos": "SAE (Sistema de Administración Efectivo)",
+    "Estatus": "Activo",
+    "Salud": "0.24625",
+    "Peso": 60,
+    "Factor": 14.775
+  },
+  {
+    "Aplicativos": "SAF (Sistema de Administración de Fondos)",
+    "Estatus": "Activo",
+    "Salud": "0.425",
+    "Peso": 0,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "SAF (Sistema de Análisis Financiero)",
+    "Estatus": "Activo",
+    "Salud": "0.425",
+    "Peso": 10,
+    "Factor": 4.25
+  },
+  {
+    "Aplicativos": "SAP (SAP ERP)",
+    "Estatus": "Activo",
+    "Salud": "0.87125",
+    "Peso": 20,
+    "Factor": 17.425
+  },
+  {
+    "Aplicativos": "SAP HANA (SAP Business Objects Data Services)",
+    "Estatus": "Activo",
+    "Salud": "0.86",
+    "Peso": 10,
+    "Factor": 8.6
+  },
+  {
+    "Aplicativos": "SAP Netweaver",
+    "Estatus": "Activo",
+    "Salud": "0.5",
+    "Peso": 40,
+    "Factor": 20
+  },
+  {
+    "Aplicativos": "SAP Netweaver KM",
+    "Estatus": "Activo",
+    "Salud": "0.025",
+    "Peso": 40,
+    "Factor": 1
+  },
+  {
+    "Aplicativos": "SAP SOA",
+    "Estatus": "Activo",
+    "Salud": "0.375",
+    "Peso": 10,
+    "Factor": 3.75
+  },
+  {
+    "Aplicativos": "SAPI (Sistema de administración de fondos de pensiones individualizadas)",
+    "Estatus": "Activo",
+    "Salud": "0.4275",
+    "Peso": 10,
+    "Factor": 4.275
+  },
+  {
+    "Aplicativos": "SAS",
+    "Estatus": "Activo",
+    "Salud": "0.687380952380952",
+    "Peso": 10,
+    "Factor": 6.87380952380952
+  },
+  {
+    "Aplicativos": "SAT Procesos UX",
+    "Estatus": "Activo",
+    "Salud": "0.525",
+    "Peso": 40,
+    "Factor": 21
+  },
+  {
+    "Aplicativos": "SAT prevalidador",
+    "Estatus": "Activo",
+    "Salud": "0.335",
+    "Peso": 40,
+    "Factor": 13.4
+  },
+  {
+    "Aplicativos": "SAX Avaluos",
+    "Estatus": "Activo",
+    "Salud": "0.105",
+    "Peso": 10,
+    "Factor": 1.05
+  },
+  {
+    "Aplicativos": "SCAT (Sistema de Control de Administración de Tesorería)",
+    "Estatus": "Por Decomisar",
+    "Salud": "0.348333333333333",
+    "Peso": 60,
+    "Factor": 20.9
+  },
+  {
+    "Aplicativos": "SCAT Central",
+    "Estatus": "Activo",
+    "Salud": "0.275",
+    "Peso": 10,
+    "Factor": 2.75
+  },
+  {
+    "Aplicativos": "SCAT Web Service",
+    "Estatus": "Activo",
+    "Salud": "0.0675",
+    "Peso": 10,
+    "Factor": 0.675
+  },
+  {
+    "Aplicativos": "SCI (Sistema de Control de Inventario)",
+    "Estatus": "Actualizando información",
+    "Salud": "0.75",
+    "Peso": 10,
+    "Factor": 7.5
+  },
+  {
+    "Aplicativos": "SERAM",
+    "Estatus": "Activo",
+    "Salud": "0.653333333333333",
+    "Peso": 10,
+    "Factor": 6.53333333333333
+  },
+  {
+    "Aplicativos": "SGI (Sistema de Gestión de Inmuebles)",
+    "Estatus": "Activo",
+    "Salud": "0.2081",
+    "Peso": 10,
+    "Factor": 2.081
+  },
+  {
+    "Aplicativos": "SIAB (Sistema Integral de Almacenadora Banorte)",
+    "Estatus": "Activo",
+    "Salud": "0.292083333333333",
+    "Peso": 20,
+    "Factor": 5.84166666666667
+  },
+  {
+    "Aplicativos": "SIAB por Internet",
+    "Estatus": "Activo",
+    "Salud": "0.562",
+    "Peso": 10,
+    "Factor": 5.62
+  },
+  {
+    "Aplicativos": "SIAM (Total System)",
+    "Estatus": "Actualizando información",
+    "Salud": "0",
+    "Peso": 10,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "SIAOP (Sistema de Alertas Operativas para Prevención de Lavado de Dinero)",
+    "Estatus": "Activo",
+    "Salud": "0.2745",
+    "Peso": 10,
+    "Factor": 2.745
+  },
+  {
+    "Aplicativos": "SICA (Sistema Integral de Cambios)",
+    "Estatus": "Activo",
+    "Salud": "0.11",
+    "Peso": 10,
+    "Factor": 1.1
+  },
+  {
+    "Aplicativos": "SIDEL (Sistema Integral de Documentos en Línea))",
+    "Estatus": "Activo",
+    "Salud": "0.4275",
+    "Peso": 10,
+    "Factor": 4.275
+  },
+  {
+    "Aplicativos": "SIDI",
+    "Estatus": "Activo",
+    "Salud": "1",
+    "Peso": 10,
+    "Factor": 10
+  },
+  {
+    "Aplicativos": "SIEN UNIX (Sistema de Envio de archivos)",
+    "Estatus": "Activo",
+    "Salud": "0.775",
+    "Peso": 10,
+    "Factor": 7.75
+  },
+  {
+    "Aplicativos": "SIF-Garban",
+    "Estatus": "Activo",
+    "Salud": "0.25",
+    "Peso": 10,
+    "Factor": 2.5
+  },
+  {
+    "Aplicativos": "SIFE Sistema Financiero Eficiente",
+    "Estatus": "Activo",
+    "Salud": "0.912045454545454",
+    "Peso": 10,
+    "Factor": 9.12045454545454
+  },
+  {
+    "Aplicativos": "SIM Folletería",
+    "Estatus": "Activo",
+    "Salud": "0.18125",
+    "Peso": 10,
+    "Factor": 1.8125
+  },
+  {
+    "Aplicativos": "SIMAP-IAP (SIMAP: Sociedades de Inversión Módulo de Acciones Propias / IAP: Interfaz de Acciones Propias.)",
+    "Estatus": "Activo",
+    "Salud": "0.383958333333333",
+    "Peso": 10,
+    "Factor": 3.83958333333333
+  },
+  {
+    "Aplicativos": "SIMON (Sistema de Monitoreo)",
+    "Estatus": "Activo",
+    "Salud": "0.785",
+    "Peso": 10,
+    "Factor": 7.85
+  },
+  {
+    "Aplicativos": "SIPE Móvil",
+    "Estatus": "Activo",
+    "Salud": "0.4875",
+    "Peso": 10,
+    "Factor": 4.875
+  },
+  {
+    "Aplicativos": "SIT 20",
+    "Estatus": "Activo",
+    "Salud": "0.50375",
+    "Peso": 10,
+    "Factor": 5.0375
+  },
+  {
+    "Aplicativos": "SITE (Sistema integral de Tesorería)",
+    "Estatus": "Activo",
+    "Salud": "0.339375",
+    "Peso": 10,
+    "Factor": 3.39375
+  },
+  {
+    "Aplicativos": "SMARL (Sistema de Monitoreo de Asuntos de Riesgo Legal)",
+    "Estatus": "Activo",
+    "Salud": "0.1775",
+    "Peso": 10,
+    "Factor": 1.775
+  },
+  {
+    "Aplicativos": "SSTOB (Self Service Terminal Operations Bridge)",
+    "Estatus": "Activo",
+    "Salud": "0.085",
+    "Peso": 10,
+    "Factor": 0.85
+  },
+  {
+    "Aplicativos": "STP Driver (Straight Through Procesing Driver)",
+    "Estatus": "Activo",
+    "Salud": "0.406666666666667",
+    "Peso": 10,
+    "Factor": 4.06666666666667
+  },
+  {
+    "Aplicativos": "SWIFT",
+    "Estatus": "Activo",
+    "Salud": "0.862272727272727",
+    "Peso": 50,
+    "Factor": 43.1136363636364
+  },
+  {
+    "Aplicativos": "Servicio Médico",
+    "Estatus": "Activo",
+    "Salud": "1",
+    "Peso": 10,
+    "Factor": 10
+  },
+  {
+    "Aplicativos": "Siga PC",
+    "Estatus": "Activo",
+    "Salud": "0.25",
+    "Peso": 10,
+    "Factor": 2.5
+  },
+  {
+    "Aplicativos": "Siga Web",
+    "Estatus": "Activo",
+    "Salud": "0.0306",
+    "Peso": 40,
+    "Factor": 1.224
+  },
+  {
+    "Aplicativos": "Sistema de Administración de Fondos ",
+    "Estatus": "Activo",
+    "Salud": "0.840357142857143",
+    "Peso": 60,
+    "Factor": 50.4214285714286
+  },
+  {
+    "Aplicativos": "Sistema de Operaciones Inusuales",
+    "Estatus": "Activo",
+    "Salud": "0.1775",
+    "Peso": 10,
+    "Factor": 1.775
+  },
+  {
+    "Aplicativos": "Sistema de Pagos Interbancarios en Dolares (SPID)",
+    "Estatus": "Activo",
+    "Salud": "0.86",
+    "Peso": 10,
+    "Factor": 8.6
+  },
+  {
+    "Aplicativos": "Solida Enkontrol",
+    "Estatus": "Activo",
+    "Salud": "0.806666666666667",
+    "Peso": 10,
+    "Factor": 8.06666666666667
+  },
+  {
+    "Aplicativos": "Soluciones Operativas de Tarjetas Bancarias",
+    "Estatus": "Actualizando información",
+    "Salud": "0",
+    "Peso": 10,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "Soluciones de Poderes",
+    "Estatus": "Activo",
+    "Salud": "0.4425",
+    "Peso": 10,
+    "Factor": 4.425
+  },
+  {
+    "Aplicativos": "Sorteos Central (Altamira)",
+    "Estatus": "Activo",
+    "Salud": "0.83875",
+    "Peso": 10,
+    "Factor": 8.3875
+  },
+  {
+    "Aplicativos": "SucurApps",
+    "Estatus": "Actualizando información",
+    "Salud": "0.6525",
+    "Peso": 10,
+    "Factor": 6.525
+  },
+  {
+    "Aplicativos": "Sustentabilidad",
+    "Estatus": "Activo",
+    "Salud": "0.91",
+    "Peso": 10,
+    "Factor": 9.1
+  },
+  {
+    "Aplicativos": "Swift Consola Mapeadora",
+    "Estatus": "Activo",
+    "Salud": "0.453333333333333",
+    "Peso": 10,
+    "Factor": 4.53333333333333
+  },
+  {
+    "Aplicativos": "TADDM (Tivoli Application Dependency Discovery Manager)",
+    "Estatus": "Activo",
+    "Salud": "0.75",
+    "Peso": 10,
+    "Factor": 7.5
+  },
+  {
+    "Aplicativos": "Tecnología, Asesoría, Sistemas de Casa de Bolsa",
+    "Estatus": "Activo",
+    "Salud": "0.653522727272727",
+    "Peso": 60,
+    "Factor": 39.2113636363636
+  },
+  {
+    "Aplicativos": "Telesoft",
+    "Estatus": "Por Decomisar",
+    "Salud": "0.125863157894737",
+    "Peso": 10,
+    "Factor": 1.25863157894737
+  },
+  {
+    "Aplicativos": "Tesinter (FOX)",
+    "Estatus": "Activo",
+    "Salud": "1",
+    "Peso": 10,
+    "Factor": 10
+  },
+  {
+    "Aplicativos": "Total System",
+    "Estatus": "Activo",
+    "Salud": "0.875",
+    "Peso": 10,
+    "Factor": 8.75
+  },
+  {
+    "Aplicativos": "Tracker",
+    "Estatus": "Activo",
+    "Salud": "0.6775",
+    "Peso": 10,
+    "Factor": 6.775
+  },
+  {
+    "Aplicativos": "Trillium (Preparación y Calidad de Datos)",
+    "Estatus": "Activo",
+    "Salud": "0.525",
+    "Peso": 10,
+    "Factor": 5.25
+  },
+  {
+    "Aplicativos": "True Copy",
+    "Estatus": "Activo",
+    "Salud": "0.75",
+    "Peso": 10,
+    "Factor": 7.5
+  },
+  {
+    "Aplicativos": "UCS (Universal Contact Server)",
+    "Estatus": "En investigación",
+    "Salud": "0.75",
+    "Peso": 10,
+    "Factor": 7.5
+  },
+  {
+    "Aplicativos": "URS (Universal Routing Server)",
+    "Estatus": "En investigación",
+    "Salud": "0.62",
+    "Peso": 10,
+    "Factor": 6.2
+  },
+  {
+    "Aplicativos": "Unified Functional Testing (UFT)",
+    "Estatus": "Activo",
+    "Salud": "1",
+    "Peso": 10,
+    "Factor": 10
+  },
+  {
+    "Aplicativos": "Uniteller",
+    "Estatus": "Activo",
+    "Salud": "0.799375",
+    "Peso": 70,
+    "Factor": 55.95625
+  },
+  {
+    "Aplicativos": "Ventas Multicanal",
+    "Estatus": "Por Decomisar",
+    "Salud": "0.855",
+    "Peso": 10,
+    "Factor": 8.55
+  },
+  {
+    "Aplicativos": "Vision Plus",
+    "Estatus": "Activo",
+    "Salud": "0.6775",
+    "Peso": 80,
+    "Factor": 54.2
+  },
+  {
+    "Aplicativos": "Vivesano Banorte",
+    "Estatus": "Activo",
+    "Salud": "1",
+    "Peso": 10,
+    "Factor": 10
+  },
+  {
+    "Aplicativos": "WDE (Workspace Desktop Edition)",
+    "Estatus": "Activo",
+    "Salud": "0.265",
+    "Peso": 10,
+    "Factor": 2.65
+  },
+  {
+    "Aplicativos": "WFM (Workforce Manager)",
+    "Estatus": "En investigación",
+    "Salud": "0",
+    "Peso": 10,
+    "Factor": 0
+  },
+  {
+    "Aplicativos": "WFO (Workforce Optimization)",
+    "Estatus": "Activo",
+    "Salud": "0.265",
+    "Peso": 10,
+    "Factor": 2.65
+  },
+  {
+    "Aplicativos": "Zabbix",
+    "Estatus": "Activo",
+    "Salud": "0.935384615384615",
+    "Peso": 10,
+    "Factor": 9.35384615384615
+  }
+]
